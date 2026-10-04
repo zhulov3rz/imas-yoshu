@@ -1,19 +1,128 @@
 import {
   classifySongs,
+  createSongExport,
   isCharacterVoiced,
   matchesCharacterQuery,
   parseRosterState,
   serializeRosterState,
-} from "./matching.js?v=20260927-6";
+} from "./matching.js?v=20261004-2";
 
 const BRAND_LABELS = {
-  "the-idolmaster": "765PRO ALLSTARS",
-  "cinderella-girls": "CINDERELLA GIRLS",
-  "million-live": "MILLION LIVE!",
-  sidem: "SideM",
-  "shiny-colors": "SHINY COLORS",
-  "gakuen-idolmaster": "学園アイドルマスター",
-  other: "その他",
+  ja: {
+    "the-idolmaster": "765PRO ALLSTARS",
+    "cinderella-girls": "CINDERELLA GIRLS",
+    "million-live": "MILLION LIVE!",
+    sidem: "SideM",
+    "shiny-colors": "SHINY COLORS",
+    "gakuen-idolmaster": "学園アイドルマスター",
+    other: "その他",
+  },
+  en: {
+    "the-idolmaster": "765PRO ALLSTARS",
+    "cinderella-girls": "CINDERELLA GIRLS",
+    "million-live": "MILLION LIVE!",
+    sidem: "SideM",
+    "shiny-colors": "SHINY COLORS",
+    "gakuen-idolmaster": "学園アイドルマスター",
+    other: "Other",
+  },
+};
+
+const COPY = {
+  ja: {
+    documentTitle: "IM@S 予習リスト",
+    description: "出演アイドルから、オリジナルメンバーがそろうアイドルマスター楽曲を探します。",
+    homeLabel: "トップに戻る",
+    languageLabel: "表示言語",
+    appTitle: "IM@S 予習リスト",
+    lede: "出演アイドルを選ぶと、オリジナルメンバーがそろう曲と、あと少しでそろう曲を探せます。",
+    loading: "楽曲データを読み込んでいます…",
+    pickerTitle: "出演アイドルを選ぶ",
+    bulkImport: "出演者をまとめて入力",
+    searchLabel: "アイドルを検索",
+    searchPlaceholder: "名前・よみ・ローマ字・声優名で検索",
+    hideUnvoiced: "ボイスなしのアイドルを非表示",
+    selectedPrefix: "選択中",
+    peopleSuffix: "人",
+    clearSelection: "すべて解除",
+    includeMissingTwo: "あと2人の候補も表示",
+    findSongs: "このメンバーで楽曲を探す",
+    resultsTitle: "予習する楽曲",
+    exportResults: "JSONを書き出す",
+    backToSelection: "メンバー選択に戻る",
+    excludeSoloSongs: "ソロ曲を除外",
+    compactResults: "コンパクト表示",
+    footer: "非公式のファンツールです。楽曲データは「最初に確認できた録音の歌唱者」を基準に整理しています。",
+    brandFilterLabel: "ブランドで絞り込む",
+    allBrands: "すべて",
+    visibleCount: "{count}人",
+    visibleCountOne: "{count}人",
+    emptyIdols: "条件に合うアイドルが見つかりません。",
+    selectedAria: "{name} 選択済み",
+    selectAria: "{name} を選択",
+    removeAria: "{name}を選択解除",
+    originalMembers: "オリジナルメンバー",
+    missing: "不足",
+    firstRelease: "初出: {date}",
+    noSongs: "該当曲はありません。",
+    resultSummary: "{performers}人の編成から {songs}曲を表示{filter}",
+    resultSummaryOne: "{performers}人の編成から {songs}曲を表示{filter}",
+    soloFilterSummary: "（ソロ曲を除外）",
+    exactTitle: "全員そろっている曲",
+    exactDescription: "オリジナルメンバーが全員、選択した編成に含まれます。",
+    missingOneTitle: "あと1人でそろう曲",
+    missingOneDescription: "選択済みメンバーが2人以上いて、オリジナルメンバーが1人不足しています。",
+    missingTwoTitle: "あと2人でそろう曲",
+    missingTwoDescription: "選択済みメンバーが2人以上いて、オリジナルメンバーが2人不足しています。",
+    loadError: "データを読み込めませんでした。ページを再読み込みしてください。",
+  },
+  en: {
+    documentTitle: "IM@S Prep List",
+    description: "Find IDOLM@STER songs whose canonical performers are represented by a selected concert roster.",
+    homeLabel: "Return to the home page",
+    languageLabel: "Display language",
+    appTitle: "IM@S Prep List",
+    lede: "Select the performers appearing at a show to find songs with complete or nearly complete canonical lineups.",
+    loading: "Loading song data…",
+    pickerTitle: "Select performers",
+    bulkImport: "Import a performer list",
+    searchLabel: "Search performers",
+    searchPlaceholder: "Search by name, reading, romanization, or voice actor",
+    hideUnvoiced: "Hide unvoiced idols",
+    selectedPrefix: "Selected:",
+    peopleSuffix: "",
+    clearSelection: "Clear all",
+    includeMissingTwo: "Include songs missing two performers",
+    findSongs: "Find songs for this roster",
+    resultsTitle: "Songs to prepare",
+    exportResults: "Export JSON",
+    backToSelection: "Back to performer selection",
+    excludeSoloSongs: "Exclude solo songs",
+    compactResults: "Compact view",
+    footer: "This is an unofficial fan tool. Song data is organized by the performers credited on the earliest identified recording.",
+    brandFilterLabel: "Filter by brand",
+    allBrands: "All",
+    visibleCount: "{count} idols",
+    visibleCountOne: "{count} idol",
+    emptyIdols: "No idols match these filters.",
+    selectedAria: "{name}, selected",
+    selectAria: "Select {name}",
+    removeAria: "Remove {name} from the selection",
+    originalMembers: "Canonical performers",
+    missing: "Missing",
+    firstRelease: "First release: {date}",
+    noSongs: "No matching songs.",
+    resultSummary: "Showing {songs} songs for a roster of {performers}{filter}",
+    resultSummaryOne: "Showing {songs} song for a roster of {performers}{filter}",
+    soloFilterSummary: " (solo songs excluded)",
+    exactTitle: "Complete canonical lineups",
+    exactDescription: "Every canonical performer is included in the selected roster.",
+    missingOneTitle: "Missing one performer",
+    missingOneDescription: "At least two selected performers are present, with one canonical performer missing.",
+    missingTwoTitle: "Missing two performers",
+    missingTwoDescription: "At least two selected performers are present, with two canonical performers missing.",
+    loadError: "The data could not be loaded. Please reload the page.",
+  },
 };
 
 const BRAND_ORDER = [
@@ -26,6 +135,10 @@ const BRAND_ORDER = [
   "other",
 ];
 
+const initialLanguage = new URLSearchParams(location.search).get("lang") === "en"
+  ? "en"
+  : "ja";
+
 const state = {
   catalog: null,
   charactersById: new Map(),
@@ -37,9 +150,16 @@ const state = {
   excludeSoloSongs: true,
   compactResults: false,
   hasSearched: false,
+  matches: null,
+  language: initialLanguage,
+  loadFailed: false,
 };
 
 const elements = {
+  description: document.querySelector('meta[name="description"]'),
+  headerHome: document.querySelector(".header-home"),
+  languageButtons: document.querySelectorAll("[data-language]"),
+  bulkImportLink: document.querySelector(".bulk-import-link"),
   status: document.querySelector("#status"),
   app: document.querySelector("#app"),
   searchInput: document.querySelector("#idol-search"),
@@ -55,10 +175,46 @@ const elements = {
   includeMissingTwo: document.querySelector("#include-missing-two"),
   excludeSoloSongs: document.querySelector("#exclude-solo-songs"),
   compactResults: document.querySelector("#compact-results"),
+  exportResults: document.querySelector("#export-results"),
   results: document.querySelector("#results"),
   resultSummary: document.querySelector("#result-summary"),
   resultGroups: document.querySelector("#result-groups"),
 };
+
+function t(key, values = {}) {
+  return COPY[state.language][key].replace(
+    /\{(\w+)\}/gu,
+    (_, name) => String(values[name] ?? ""),
+  );
+}
+
+function applyStaticCopy() {
+  document.documentElement.lang = state.language;
+  document.title = t("documentTitle");
+  elements.description.content = t("description");
+  for (const element of document.querySelectorAll("[data-i18n]")) {
+    element.textContent = t(element.dataset.i18n);
+  }
+  for (const element of document.querySelectorAll("[data-i18n-placeholder]")) {
+    element.placeholder = t(element.dataset.i18nPlaceholder);
+  }
+  for (const element of document.querySelectorAll("[data-i18n-aria]")) {
+    element.setAttribute("aria-label", t(element.dataset.i18nAria));
+  }
+  for (const button of elements.languageButtons) {
+    button.setAttribute("aria-pressed", String(button.dataset.language === state.language));
+  }
+  const languageQuery = state.language === "en" ? "?lang=en" : "";
+  elements.headerHome.href = `./${languageQuery}`;
+  elements.bulkImportLink.href = `./import.html${languageQuery}`;
+}
+
+function updateLanguageInUrl() {
+  const url = new URL(location.href);
+  if (state.language === "en") url.searchParams.set("lang", "en");
+  else url.searchParams.delete("lang");
+  history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+}
 
 function characterSort(left, right) {
   return (
@@ -91,7 +247,9 @@ function renderBrandFilters() {
     button.type = "button";
     button.className = "filter-chip";
     button.dataset.brand = brand;
-    button.textContent = brand === "all" ? "すべて" : (BRAND_LABELS[brand] ?? brand);
+    button.textContent = brand === "all"
+      ? t("allBrands")
+      : (BRAND_LABELS[state.language][brand] ?? brand);
     button.setAttribute("aria-pressed", String(state.brand === brand));
     button.addEventListener("click", () => {
       state.brand = brand;
@@ -109,13 +267,16 @@ function renderIdols() {
     .filter((character) => matchesCharacterQuery(character, state.query))
     .sort(characterSort);
 
-  elements.visibleCount.textContent = `${visible.length}人`;
+  elements.visibleCount.textContent = t(
+    visible.length === 1 ? "visibleCountOne" : "visibleCount",
+    { count: visible.length },
+  );
   elements.idolGrid.replaceChildren();
 
   if (!visible.length) {
     const empty = document.createElement("p");
     empty.className = "empty-grid";
-    empty.textContent = "条件に合うアイドルが見つかりません。";
+    empty.textContent = t("emptyIdols");
     elements.idolGrid.append(empty);
     return;
   }
@@ -128,7 +289,10 @@ function renderIdols() {
     button.className = "idol-card";
     button.dataset.characterId = character.id;
     button.setAttribute("aria-pressed", String(selected));
-    button.setAttribute("aria-label", `${character.name}${selected ? " 選択済み" : " を選択"}`);
+    button.setAttribute(
+      "aria-label",
+      t(selected ? "selectedAria" : "selectAria", { name: character.name }),
+    );
     button.append(makeCharacterImage(character, index < 12));
 
     const copy = document.createElement("span");
@@ -172,7 +336,7 @@ function renderSelected() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "selected-chip";
-    button.setAttribute("aria-label", `${character.name}を選択解除`);
+    button.setAttribute("aria-label", t("removeAria", { name: character.name }));
     button.append(makeCharacterImage(character));
     const label = document.createElement("span");
     label.textContent = character.name;
@@ -188,7 +352,7 @@ function renderSelected() {
 function performerList(ids, className) {
   const list = document.createElement("span");
   list.className = className;
-  list.textContent = ids.map(characterName).join("、");
+  list.textContent = ids.map(characterName).join(state.language === "ja" ? "、" : ", ");
   return list;
 }
 
@@ -203,7 +367,7 @@ function renderSongCard(match, kind) {
   const canonical = document.createElement("p");
   canonical.className = "performer-line";
   const canonicalLabel = document.createElement("span");
-  canonicalLabel.textContent = "オリジナルメンバー";
+  canonicalLabel.textContent = t("originalMembers");
   canonical.append(canonicalLabel, performerList(match.song.canonical_performer_ids, ""));
   article.append(canonical);
 
@@ -211,7 +375,7 @@ function renderSongCard(match, kind) {
     const missing = document.createElement("p");
     missing.className = "performer-line missing-line";
     const missingLabel = document.createElement("span");
-    missingLabel.textContent = "不足";
+    missingLabel.textContent = t("missing");
     missing.append(
       missingLabel,
       performerList(match.missingPerformerIds, "missing-names"),
@@ -222,7 +386,7 @@ function renderSongCard(match, kind) {
   if (match.song.provenance.release_date) {
     const date = document.createElement("p");
     date.className = "release-date";
-    date.textContent = `初出: ${match.song.provenance.release_date}`;
+    date.textContent = t("firstRelease", { date: match.song.provenance.release_date });
     article.append(date);
   }
   return article;
@@ -246,7 +410,7 @@ function renderResultGroup(title, description, matches, kind) {
   if (!matches.length) {
     const empty = document.createElement("p");
     empty.className = "empty-results";
-    empty.textContent = "該当曲はありません。";
+    empty.textContent = t("noSongs");
     section.append(empty);
   } else {
     const grid = document.createElement("div");
@@ -257,7 +421,7 @@ function renderResultGroup(title, description, matches, kind) {
   return section;
 }
 
-function runSearch({ updateUrl = true } = {}) {
+function runSearch({ updateUrl = true, scroll = true } = {}) {
   if (!state.selectedIds.size) return;
   state.includeMissingTwo = elements.includeMissingTwo.checked;
   state.excludeSoloSongs = elements.excludeSoloSongs.checked;
@@ -268,20 +432,25 @@ function runSearch({ updateUrl = true } = {}) {
     includeMissingTwo: state.includeMissingTwo,
     excludeSoloSongs: state.excludeSoloSongs,
   });
+  state.matches = matches;
   const total = matches.exact.length + matches.missingOne.length + matches.missingTwo.length;
-  const filterSummary = state.excludeSoloSongs ? "（ソロ曲を除外）" : "";
-  elements.resultSummary.textContent =
-    `${state.selectedIds.size}人の編成から ${total}曲を表示${filterSummary}`;
+  elements.exportResults.disabled = total === 0;
+  const filterSummary = state.excludeSoloSongs ? t("soloFilterSummary") : "";
+  elements.resultSummary.textContent = t(total === 1 ? "resultSummaryOne" : "resultSummary", {
+    performers: state.selectedIds.size,
+    songs: total,
+    filter: filterSummary,
+  });
   elements.resultGroups.replaceChildren(
     renderResultGroup(
-      "全員そろっている曲",
-      "オリジナルメンバーが全員、選択した編成に含まれます。",
+      t("exactTitle"),
+      t("exactDescription"),
       matches.exact,
       "exact",
     ),
     renderResultGroup(
-      "あと1人でそろう曲",
-      "選択済みメンバーが2人以上いて、オリジナルメンバーが1人不足しています。",
+      t("missingOneTitle"),
+      t("missingOneDescription"),
       matches.missingOne,
       "one",
     ),
@@ -289,8 +458,8 @@ function runSearch({ updateUrl = true } = {}) {
   if (state.includeMissingTwo) {
     elements.resultGroups.append(
       renderResultGroup(
-        "あと2人でそろう曲",
-        "選択済みメンバーが2人以上いて、オリジナルメンバーが2人不足しています。",
+        t("missingTwoTitle"),
+        t("missingTwoDescription"),
         matches.missingTwo,
         "two",
       ),
@@ -305,10 +474,43 @@ function runSearch({ updateUrl = true } = {}) {
       state.includeMissingTwo,
       state.excludeSoloSongs,
       state.compactResults,
+      state.language,
     );
     history.replaceState(null, "", `${location.pathname}${query}${location.hash}`);
   }
-  elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (scroll) elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function exportResults() {
+  if (!state.matches) return;
+
+  const contents = `${JSON.stringify(createSongExport(state.matches), null, 2)}\n`;
+  const url = URL.createObjectURL(
+    new Blob([contents], { type: "application/json;charset=utf-8" }),
+  );
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "imas-yoshu-song-list.json";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 0);
+}
+
+function setLanguage(language) {
+  if (language === state.language) return;
+  state.language = language;
+  applyStaticCopy();
+  updateLanguageInUrl();
+
+  if (state.catalog) {
+    renderBrandFilters();
+    renderIdols();
+    renderSelected();
+    if (state.hasSearched) runSearch({ updateUrl: false, scroll: false });
+  } else if (state.loadFailed) {
+    elements.status.textContent = t("loadError");
+  }
 }
 
 async function initialize() {
@@ -327,6 +529,7 @@ async function initialize() {
     state.includeMissingTwo = restored.includeMissingTwo;
     state.excludeSoloSongs = restored.excludeSoloSongs;
     state.compactResults = restored.compactResults;
+    state.language = restored.language;
     elements.includeMissingTwo.checked = restored.includeMissingTwo;
     elements.excludeSoloSongs.checked = restored.excludeSoloSongs;
     elements.compactResults.checked = restored.compactResults;
@@ -340,8 +543,9 @@ async function initialize() {
     if (state.selectedIds.size) runSearch({ updateUrl: false });
   } catch (error) {
     console.error(error);
+    state.loadFailed = true;
     elements.status.className = "load-status load-error";
-    elements.status.textContent = "データを読み込めませんでした。ページを再読み込みしてください。";
+    elements.status.textContent = t("loadError");
   }
 }
 
@@ -357,8 +561,14 @@ elements.clearSelection.addEventListener("click", () => {
   state.selectedIds.clear();
   renderIdols();
   renderSelected();
+  state.matches = null;
+  elements.exportResults.disabled = true;
   elements.results.hidden = true;
-  history.replaceState(null, "", location.pathname);
+  history.replaceState(
+    null,
+    "",
+    `${location.pathname}${state.language === "en" ? "?lang=en" : ""}`,
+  );
 });
 elements.findSongs.addEventListener("click", () => runSearch());
 elements.includeMissingTwo.addEventListener("change", () => {
@@ -370,5 +580,10 @@ elements.excludeSoloSongs.addEventListener("change", () => {
 elements.compactResults.addEventListener("change", () => {
   if (state.hasSearched) runSearch();
 });
+elements.exportResults.addEventListener("click", exportResults);
+for (const button of elements.languageButtons) {
+  button.addEventListener("click", () => setLanguage(button.dataset.language));
+}
 
+applyStaticCopy();
 initialize();

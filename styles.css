@@ -40,10 +40,47 @@ button {
 }
 
 .site-header {
+  position: relative;
   color: white;
   background:
     radial-gradient(circle at 85% 15%, rgb(255 255 255 / 18%) 0 7rem, transparent 7.1rem),
     linear-gradient(125deg, #c93661, #f06b77 56%, #ee925d);
+}
+
+.header-tools {
+  position: absolute;
+  z-index: 1;
+  top: 18px;
+  right: max(16px, calc((100% - 1180px) / 2));
+}
+
+.language-switcher {
+  display: flex;
+  padding: 3px;
+  border: 1px solid rgb(255 255 255 / 45%);
+  border-radius: 9px;
+  background: rgb(108 25 52 / 18%);
+}
+
+.language-switcher button {
+  padding: 5px 9px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: rgb(255 255 255 / 78%);
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.language-switcher button[aria-pressed="true"] {
+  background: white;
+  color: var(--accent-dark);
+}
+
+.language-switcher button:focus-visible {
+  outline: 3px solid rgb(255 255 255 / 70%);
+  outline-offset: 2px;
 }
 
 .header-home {
@@ -257,6 +294,7 @@ main {
 
 .idol-card:focus-visible,
 .primary-button:focus-visible,
+.export-button:focus-visible,
 .filter-chip:focus-visible,
 .selected-chip:focus-visible,
 .text-button:focus-visible,
@@ -422,6 +460,34 @@ main {
 }
 
 .primary-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.result-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.export-button {
+  padding: 9px 13px;
+  border: 1px solid var(--accent);
+  border-radius: 9px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.export-button:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.export-button:disabled {
   cursor: not-allowed;
   opacity: 0.5;
 }
@@ -816,8 +882,13 @@ footer {
 }
 
 @media (max-width: 640px) {
+  .header-tools {
+    top: 10px;
+    right: 10px;
+  }
+
   .header-inner {
-    padding: 36px 0 40px;
+    padding: 48px 0 40px;
   }
 
   main {
@@ -886,6 +957,11 @@ footer {
 
   .result-heading {
     align-items: flex-start;
+  }
+
+  .result-heading-actions {
+    align-items: flex-end;
+    flex-direction: column-reverse;
   }
 
   .result-options {

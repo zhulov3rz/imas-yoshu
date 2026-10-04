@@ -92,6 +92,22 @@ export function classifySongs(songs, selectedPerformerIds, options = {}) {
   return result;
 }
 
+/**
+ * Build the stable hand-off format consumed by downstream playlist tooling.
+ * The group order matches the order in which results are presented in the UI.
+ */
+export function createSongExport(matches) {
+  return {
+    format: "imas-yoshu-song-list",
+    version: 1,
+    songs: [
+      ...matches.exact,
+      ...matches.missingOne,
+      ...matches.missingTwo,
+    ].map(({ song }) => ({ id: song.id, title: song.title })),
+  };
+}
+
 export function parseRosterState(search, validCharacterIds) {
   const parameters = new URLSearchParams(search);
   const validIds = new Set(validCharacterIds);
@@ -110,6 +126,7 @@ export function parseRosterState(search, validCharacterIds) {
     includeMissingTwo: parameters.get("missing") !== "1",
     excludeSoloSongs: parameters.get("solo") !== "show",
     compactResults: parameters.get("view") === "compact",
+    language: parameters.get("lang") === "en" ? "en" : "ja",
   };
 }
 
@@ -118,12 +135,14 @@ export function serializeRosterState(
   includeMissingTwo = true,
   excludeSoloSongs = true,
   compactResults = false,
+  language = "ja",
 ) {
   const parameters = new URLSearchParams();
   if (selectedIds.length) parameters.set("idols", selectedIds.join(","));
   parameters.set("missing", includeMissingTwo ? "2" : "1");
   parameters.set("solo", excludeSoloSongs ? "hide" : "show");
   if (compactResults) parameters.set("view", "compact");
+  if (language === "en") parameters.set("lang", "en");
   const query = parameters.toString();
   return query ? `?${query}` : "";
 }

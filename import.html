@@ -8,51 +8,58 @@
       content="アイドル名や声優名の一覧から、IM@S 予習リストの出演者をまとめて選択します。"
     />
     <title>出演者をまとめて入力 | IM@S 予習リスト</title>
-    <link rel="stylesheet" href="./styles.css?v=20260927-7" />
-    <script type="module" src="./import.js?v=20260927-6"></script>
+    <link rel="stylesheet" href="./styles.css?v=20261004-2" />
+    <script type="module" src="./import.js?v=20261004-2"></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="header-home" href="./" aria-label="トップに戻る">
+      <div class="header-tools">
+        <div class="language-switcher" role="group" aria-label="表示言語" data-i18n-aria="languageLabel">
+          <button type="button" data-language="ja" aria-pressed="true">日本語</button>
+          <button type="button" data-language="en" aria-pressed="false">English</button>
+        </div>
+      </div>
+      <a class="header-home" href="./" aria-label="トップに戻る" data-i18n-aria="homeLabel">
         <div class="header-inner">
           <p class="eyebrow">CONCERT PREP TOOL</p>
-          <h1>IM@S 予習リスト</h1>
-          <p class="lede">出演者の一覧を貼り付けて、まとめて選択できます。</p>
+          <h1 data-i18n="appTitle">IM@S 予習リスト</h1>
+          <p class="lede" data-i18n="lede">出演者の一覧を貼り付けて、まとめて選択できます。</p>
         </div>
       </a>
     </header>
 
-    <p id="status" class="load-status" role="status">アイドルデータを読み込んでいます…</p>
+    <p id="status" class="load-status" role="status" data-i18n="loading">アイドルデータを読み込んでいます…</p>
 
     <main id="import-app" class="import-main" hidden>
       <section class="importer" aria-labelledby="import-title">
         <div class="section-heading import-heading">
           <div>
             <p class="step-label">BULK IMPORT</p>
-            <h2 id="import-title">出演者をまとめて入力</h2>
+            <h2 id="import-title" data-i18n="importTitle">出演者をまとめて入力</h2>
           </div>
-          <a class="utility-link" href="./">通常の選択に戻る</a>
+          <a id="back-to-picker" class="utility-link" href="./" data-i18n="backToPicker">通常の選択に戻る</a>
         </div>
 
-        <p class="import-description">
+        <p class="import-description" data-i18n="instructions">
           アイドル名または声優名を含むテキストを貼り付けてください。改行、読点、カンマなどで区切れます。
           同じ声優が複数のアイドルを担当している場合は、該当する全員を検出します。
         </p>
 
         <form id="import-form">
-          <label class="bulk-input-label" for="bulk-input">出演者情報</label>
+          <label class="bulk-input-label" for="bulk-input" data-i18n="inputLabel">出演者情報</label>
           <textarea
             id="bulk-input"
             rows="12"
             placeholder="例：&#10;中村 繪里子&#10;如月 千早&#10;Machico"
+            data-i18n-placeholder="inputPlaceholder"
           ></textarea>
 
           <div class="import-actions">
             <p id="import-summary" class="import-summary" aria-live="polite">
-              名前を入力すると、検出結果がここに表示されます。
+              <span data-i18n="emptySummary">名前を入力すると、検出結果がここに表示されます。</span>
             </p>
             <button id="import-submit" class="primary-button" type="submit" disabled>
-              検出したアイドルを選択
+              <span data-i18n="submit">検出したアイドルを選択</span>
             </button>
           </div>
         </form>
@@ -60,7 +67,7 @@
         <div id="import-feedback" class="import-feedback" hidden>
           <section aria-labelledby="detected-title">
             <div class="feedback-heading">
-              <h3 id="detected-title">検出したアイドル</h3>
+              <h3 id="detected-title" data-i18n="detectedTitle">検出したアイドル</h3>
               <span id="detected-count">0</span>
             </div>
             <ul id="detected-list" class="detected-list"></ul>
@@ -68,7 +75,7 @@
 
           <section id="unmatched-group" class="unmatched-group" aria-labelledby="unmatched-title" hidden>
             <div class="feedback-heading">
-              <h3 id="unmatched-title">検出できなかった入力</h3>
+              <h3 id="unmatched-title" data-i18n="unmatchedTitle">検出できなかった入力</h3>
               <span id="unmatched-count">0</span>
             </div>
             <ul id="unmatched-list" class="unmatched-list"></ul>
@@ -78,7 +85,7 @@
     </main>
 
     <footer>
-      <p>非公式のファンツールです。</p>
+      <p data-i18n="footer">非公式のファンツールです。</p>
     </footer>
   </body>
 </html>
