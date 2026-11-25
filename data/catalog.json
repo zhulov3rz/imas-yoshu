@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "dataset_version": "3adc217a3b423d7de37f11040cf3cdee828daf5b1f5e6407ba799964a4715f20",
+  "dataset_version": "c599aa7564245bc374d4e50981ec22c67ac08e9bd14cf7fd050ea24a875ccc0b",
   "source_snapshots": {
-    "official_idol_list_retrieved_at": "2026-09-27T06:42:41+00:00",
-    "official_idol_details_retrieved_at": "2026-09-27T06:51:55+00:00",
-    "music765plus_song_list_retrieved_at": "2026-09-27T07:32:26+00:00"
+    "official_idol_list_retrieved_at": "2026-11-25T10:10:50+00:00",
+    "official_idol_details_retrieved_at": "2026-11-25T10:11:21+00:00",
+    "music765plus_song_list_retrieved_at": "2026-11-25T10:10:49+00:00"
   },
-  "character_count": 341,
-  "song_count": 1870,
+  "character_count": 342,
+  "song_count": 1884,
   "characters": [
     {
       "id": "aikawa_chinatsu",
@@ -2287,6 +2287,15 @@
       "thumbnail_path": "images/idols/hyodo_rena.jpg"
     },
     {
+      "id": "kanae_hiwatari",
+      "name": "氷渡 香名江",
+      "name_kana": "ひわたり かなえ",
+      "aliases": [],
+      "brand": "gakuen-idolmaster",
+      "voice_actor_name": "安倍 彩野夏",
+      "thumbnail_path": "images/idols/kanae_hiwatari.jpg"
+    },
+    {
       "id": "noriko_fukuda",
       "name": "福田 のり子",
       "name_kana": "ふくだ のりこ",
@@ -3090,7 +3099,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4,
         "music765plus_cargo_row_ids": [
-          28244
+          29934
         ],
         "page_url": "https://music765plus.com/%E9%AD%94%E6%B3%95%E3%82%92%E3%81%8B%E3%81%91%E3%81%A6%EF%BC%81",
         "release_date": "2005-07-26",
@@ -3112,7 +3121,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 64,
         "music765plus_cargo_row_ids": [
-          22977
+          29929
         ],
         "page_url": "https://music765plus.com/PRETTY_DREAMER",
         "release_date": "2013-06-26",
@@ -3152,7 +3161,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 74,
         "music765plus_cargo_row_ids": [
-          25675
+          30238
         ],
         "page_url": "https://music765plus.com/Growing_Storm%21",
         "release_date": "2014-05-28",
@@ -3208,7 +3217,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 81,
         "music765plus_cargo_row_ids": [
-          22609
+          29914
         ],
         "page_url": "https://music765plus.com/%E5%BE%AE%E7%AC%91%E3%81%BF%E6%97%A5%E5%92%8C",
         "release_date": "2013-08-28",
@@ -3410,7 +3419,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 94,
         "music765plus_cargo_row_ids": [
-          28167
+          29958
         ],
         "page_url": "https://music765plus.com/Legend_Girls%21%21",
         "release_date": "2013-05-29",
@@ -3473,7 +3482,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 98,
         "music765plus_cargo_row_ids": [
-          29436
+          30316
         ],
         "page_url": "https://music765plus.com/Marionette%E3%81%AF%E7%9C%A0%E3%82%89%E3%81%AA%E3%81%84",
         "release_date": "2013-09-25",
@@ -3557,7 +3566,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 102,
         "music765plus_cargo_row_ids": [
-          27214
+          29930
         ],
         "page_url": "https://music765plus.com/%E7%9E%B3%E3%81%AE%E4%B8%AD%E3%81%AE%E3%82%B7%E3%83%AA%E3%82%A6%E3%82%B9",
         "release_date": "2014-01-29",
@@ -3642,7 +3651,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 106,
         "music765plus_cargo_row_ids": [
-          24269
+          29980
         ],
         "page_url": "https://music765plus.com/%E5%90%88%E8%A8%80%E8%91%89%E3%81%AF%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%EF%BC%81",
         "release_date": "2014-07-30",
@@ -3686,7 +3695,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 108,
         "music765plus_cargo_row_ids": [
-          24383
+          29943
         ],
         "page_url": "https://music765plus.com/Eternal_Harmony",
         "release_date": "2014-07-29",
@@ -4900,7 +4909,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 179,
         "music765plus_cargo_row_ids": [
-          25665
+          30490
         ],
         "page_url": "https://music765plus.com/%E3%82%AD%E3%83%A9%E3%83%A1%E3%82%AD%E9%80%B2%E8%A1%8C%E5%BD%A2",
         "release_date": "2013-05-29",
@@ -5152,7 +5161,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 193,
         "music765plus_cargo_row_ids": [
-          23597
+          29966
         ],
         "page_url": "https://music765plus.com/Be_My_Boy",
         "release_date": "2013-08-28",
@@ -5206,7 +5215,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 197,
         "music765plus_cargo_row_ids": [
-          29433
+          30315
         ],
         "page_url": "https://music765plus.com/%E8%BF%BD%E6%86%B6%E3%81%AE%E3%82%B5%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9",
         "release_date": "2013-09-25",
@@ -5458,7 +5467,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 214,
         "music765plus_cargo_row_ids": [
-          27668
+          29925
         ],
         "page_url": "https://music765plus.com/%E3%83%95%E3%82%A7%E3%82%B9%E3%82%BF%E3%83%BB%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
         "release_date": "2014-01-29",
@@ -5836,7 +5845,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 236,
         "music765plus_cargo_row_ids": [
-          23598
+          29957
         ],
         "page_url": "https://music765plus.com/dear...",
         "release_date": "2014-04-30",
@@ -6016,7 +6025,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 246,
         "music765plus_cargo_row_ids": [
-          24293
+          29937
         ],
         "page_url": "https://music765plus.com/%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%8D%E3%82%B9%E3%82%AF",
         "release_date": "2014-09-24",
@@ -6070,7 +6079,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 249,
         "music765plus_cargo_row_ids": [
-          23312
+          29918
         ],
         "page_url": "https://music765plus.com/%E5%90%9B%E3%81%A0%E3%81%91%E3%81%AE%E6%AC%A0%E7%89%87",
         "release_date": "2014-09-24",
@@ -6287,7 +6296,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 261,
         "music765plus_cargo_row_ids": [
-          22872
+          30493
         ],
         "page_url": "https://music765plus.com/WORLD_WIDE_DANCE%21%21%21",
         "release_date": "2015-01-28",
@@ -6341,7 +6350,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 264,
         "music765plus_cargo_row_ids": [
-          22656
+          30492
         ],
         "page_url": "https://music765plus.com/Impervious_Resolution",
         "release_date": "2015-01-28",
@@ -6449,7 +6458,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 270,
         "music765plus_cargo_row_ids": [
-          29419
+          29944
         ],
         "page_url": "https://music765plus.com/%E6%B0%B4%E4%B8%AD%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3",
         "release_date": "2015-01-28",
@@ -6575,7 +6584,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 277,
         "music765plus_cargo_row_ids": [
-          25683
+          29960
         ],
         "page_url": "https://music765plus.com/WHY%3F",
         "release_date": "2015-03-25",
@@ -6813,7 +6822,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 292,
         "music765plus_cargo_row_ids": [
-          29312
+          30023
         ],
         "page_url": "https://music765plus.com/GO_MY_WAY%21%21",
         "release_date": "2006-07-23",
@@ -6850,7 +6859,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 294,
         "music765plus_cargo_row_ids": [
-          29434
+          30312
         ],
         "page_url": "https://music765plus.com/relations",
         "release_date": "2007-01-25",
@@ -7015,7 +7024,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 304,
         "music765plus_cargo_row_ids": [
-          29701
+          29956
         ],
         "page_url": "https://music765plus.com/%E9%9A%A3%E3%81%AB%E2%80%A6",
         "release_date": "2007-09-05",
@@ -7364,7 +7373,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 326,
         "music765plus_cargo_row_ids": [
-          29703
+          29977
         ],
         "page_url": "https://music765plus.com/KisS",
         "release_date": "2008-12-10",
@@ -7582,7 +7591,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 338,
         "music765plus_cargo_row_ids": [
-          23656
+          30318
         ],
         "page_url": "https://music765plus.com/%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%AA%E5%BD%BC",
         "release_date": "2009-08-05",
@@ -7767,7 +7776,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 347,
         "music765plus_cargo_row_ids": [
-          23453
+          30494
         ],
         "page_url": "https://music765plus.com/START%21%21",
         "release_date": "2010-11-03",
@@ -7821,7 +7830,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 350,
         "music765plus_cargo_row_ids": [
-          24549
+          30491
         ],
         "page_url": "https://music765plus.com/TRIAL_DANCE",
         "release_date": "2010-11-03",
@@ -7839,7 +7848,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 351,
         "music765plus_cargo_row_ids": [
-          29409
+          30497
         ],
         "page_url": "https://music765plus.com/Day_of_the_future",
         "release_date": "2010-11-03",
@@ -7893,7 +7902,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 354,
         "music765plus_cargo_row_ids": [
-          23242
+          29916
         ],
         "page_url": "https://music765plus.com/%E9%A2%A8%E8%8A%B1",
         "release_date": "2010-12-01",
@@ -7929,7 +7938,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 356,
         "music765plus_cargo_row_ids": [
-          29365
+          29945
         ],
         "page_url": "https://music765plus.com/%E3%82%B8%E3%82%A7%E3%83%9F%E3%83%BC",
         "release_date": "2010-12-29",
@@ -8001,7 +8010,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 360,
         "music765plus_cargo_row_ids": [
-          29711
+          29969
         ],
         "page_url": "https://music765plus.com/%E3%83%A9%E2%99%A5%E3%83%96%E2%99%A5%E3%83%AA%E2%99%A5",
         "release_date": "2011-06-22",
@@ -8354,7 +8363,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 380,
         "music765plus_cargo_row_ids": [
-          24000
+          30495
         ],
         "page_url": "https://music765plus.com/%E6%99%B4%E3%82%8C%E8%89%B2",
         "release_date": "2011-08-26",
@@ -8432,7 +8441,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 385,
         "music765plus_cargo_row_ids": [
-          29432
+          30313
         ],
         "page_url": "https://music765plus.com/%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E5%BF%83",
         "release_date": "2011-09-30",
@@ -8795,7 +8804,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 404,
         "music765plus_cargo_row_ids": [
-          27219
+          29912
         ],
         "page_url": "https://music765plus.com/%E5%88%9D%E6%81%8B_%E3%80%9C%E4%B8%80%E7%AB%A0_%E7%89%87%E6%83%B3%E3%81%84%E3%81%AE%E6%A1%9C%E3%80%9C",
         "release_date": "2012-08-15",
@@ -9172,7 +9181,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 430,
         "music765plus_cargo_row_ids": [
-          29435
+          30314
         ],
         "page_url": "https://music765plus.com/Nostalgia",
         "release_date": "2014-08-26",
@@ -9542,7 +9551,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 450,
         "music765plus_cargo_row_ids": [
-          28854
+          29920
         ],
         "page_url": "https://music765plus.com/%E3%82%A2%E3%83%9E%E3%83%86%E3%83%A9%E3%82%B9",
         "release_date": "2016-10-05",
@@ -9773,7 +9782,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 464,
         "music765plus_cargo_row_ids": [
-          28136
+          29965
         ],
         "page_url": "https://music765plus.com/LEMONADE",
         "release_date": "2017-12-22",
@@ -10117,7 +10126,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 500,
         "music765plus_cargo_row_ids": [
-          25997
+          30439
         ],
         "page_url": "https://music765plus.com/Trancing_Pulse",
         "release_date": "2015-09-12",
@@ -10762,7 +10771,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 533,
         "music765plus_cargo_row_ids": [
-          26088
+          30281
         ],
         "page_url": "https://music765plus.com/%E3%83%A2%E3%83%BC%E3%83%AC%E3%83%84%E2%98%85%E4%B8%96%E7%9B%B4%E3%81%97%E3%82%AE%E3%83%AB%E3%83%86%E3%82%A3%EF%BC%81",
         "release_date": "2017-05-19",
@@ -10953,7 +10962,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 543,
         "music765plus_cargo_row_ids": [
-          23322
+          29922
         ],
         "page_url": "https://music765plus.com/%E3%81%AF%E3%81%AA%E3%81%97%E3%82%89%E3%81%B9",
         "release_date": "2018-01-10",
@@ -12012,7 +12021,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 604,
         "music765plus_cargo_row_ids": [
-          22874
+          29953
         ],
         "page_url": "https://music765plus.com/%E6%B7%B1%E5%B1%A4%E3%83%9E%E3%83%BC%E3%83%A1%E3%82%A4%E3%83%89",
         "release_date": "2015-12-23",
@@ -12069,7 +12078,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 607,
         "music765plus_cargo_row_ids": [
-          24522
+          29911
         ],
         "page_url": "https://music765plus.com/little_trip_around_the_world",
         "release_date": "2015-12-23",
@@ -12303,7 +12312,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 621,
         "music765plus_cargo_row_ids": [
-          25691
+          29949
         ],
         "page_url": "https://music765plus.com/%E4%BF%A0%E6%B0%97%E4%B9%B1%E8%88%9E",
         "release_date": "2016-10-12",
@@ -12365,7 +12374,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 624,
         "music765plus_cargo_row_ids": [
-          23318
+          29970
         ],
         "page_url": "https://music765plus.com/%E3%82%B2%E3%82%AD%E3%83%86%E3%82%AD%EF%BC%81%E3%83%A0%E3%83%86%E3%82%AD%EF%BC%81%E6%81%8B%E3%81%97%E3%81%9F%E3%81%84%EF%BC%81",
         "release_date": "2016-12-07",
@@ -12405,7 +12414,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 626,
         "music765plus_cargo_row_ids": [
-          24390
+          29963
         ],
         "page_url": "https://music765plus.com/NO_CURRY_NO_LIFE",
         "release_date": "2016-12-07",
@@ -12563,7 +12572,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 633,
         "music765plus_cargo_row_ids": [
-          26193
+          30236
         ],
         "page_url": "https://music765plus.com/%E3%83%AA%E3%83%95%E3%83%AC%E3%82%A4%E3%83%B3%E3%82%AD%E3%82%B9",
         "release_date": "2017-02-15",
@@ -12603,7 +12612,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 635,
         "music765plus_cargo_row_ids": [
-          24104
+          29935
         ],
         "page_url": "https://music765plus.com/%E3%83%A1%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%9F%E3%83%A2%E3%83%A1%E3%83%B3%E3%83%88%E2%99%AA%E3%83%AB%E3%83%AB%E3%83%AB%E3%83%AB%E3%83%AB%E2%98%86",
         "release_date": "2017-02-15",
@@ -12822,7 +12831,7 @@
         ],
         "page_url": "https://music765plus.com/%E6%98%8F%E3%81%8D%E6%98%9F%E3%80%81%E9%81%A0%E3%81%84%E6%9C%88",
         "release_date": "2018-01-19",
-        "raw_unit_label": "夜想令嬢 -GRAC&amp;E NOCTURNE-",
+        "raw_unit_label": "夜想令嬢 -GRAC&E NOCTURNE-",
         "raw_vocal_credit": "二階堂千鶴(野村香菜子),天空橋朋花(小岩井ことり),百瀬莉緒(山口立花子),所恵美(藤井ゆきよ)"
       }
     },
@@ -12926,7 +12935,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 652,
         "music765plus_cargo_row_ids": [
-          24306
+          29927
         ],
         "page_url": "https://music765plus.com/%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%83%BB%E3%82%A2%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89",
         "release_date": "2017-09-20",
@@ -13070,7 +13079,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 660,
         "music765plus_cargo_row_ids": [
-          23610
+          29946
         ],
         "page_url": "https://music765plus.com/To...",
         "release_date": "2017-10-25",
@@ -13142,7 +13151,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 664,
         "music765plus_cargo_row_ids": [
-          22876
+          29968
         ],
         "page_url": "https://music765plus.com/Border_LINE%E2%86%92%E2%86%92%E2%86%92%E2%99%A1",
         "release_date": "2018-01-10",
@@ -13250,7 +13259,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 670,
         "music765plus_cargo_row_ids": [
-          25842
+          30446
         ],
         "page_url": "https://music765plus.com/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%AA%E3%83%83%E3%83%97",
         "release_date": "2018-02-07",
@@ -13965,7 +13974,7 @@
         "music765plus_cargo_row_ids": [
           23308
         ],
-        "page_url": "https://music765plus.com/Q%26amp%3BA",
+        "page_url": "https://music765plus.com/Q%26A",
         "release_date": "2014-06-25",
         "raw_unit_label": "(ソロ・律子)",
         "raw_vocal_credit": "秋月律子(若林直美)"
@@ -14254,7 +14263,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 743,
         "music765plus_cargo_row_ids": [
-          23431
+          30496
         ],
         "page_url": "https://music765plus.com/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%B4%E3%82%A7%E3%82%A4%E3%83%88%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%89%E3%82%B7%E3%83%A7%E3%82%A6_%28playback%2C_Weekday%29",
         "release_date": "2013-08-28",
@@ -14362,7 +14371,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 985,
         "music765plus_cargo_row_ids": [
-          27795
+          30283
         ],
         "page_url": "https://music765plus.com/%E6%A5%BD%E5%9C%92",
         "release_date": "2018-04-04",
@@ -14562,7 +14571,7 @@
         ],
         "page_url": "https://music765plus.com/Everlasting",
         "release_date": "2018-02-28",
-        "raw_unit_label": "夜想令嬢 -GRAC&amp;E NOCTURNE-",
+        "raw_unit_label": "夜想令嬢 -GRAC&E NOCTURNE-",
         "raw_vocal_credit": "二階堂千鶴(野村香菜子),天空橋朋花(小岩井ことり),百瀬莉緒(山口立花子),所恵美(藤井ゆきよ)"
       }
     },
@@ -14714,7 +14723,7 @@
         "music765plus_cargo_row_ids": [
           23463
         ],
-        "page_url": "https://music765plus.com/%E6%81%8B%E3%81%99%E3%82%8BTwist%26amp%3BShout",
+        "page_url": "https://music765plus.com/%E6%81%8B%E3%81%99%E3%82%8BTwist%26Shout",
         "release_date": "2018-03-14",
         "raw_unit_label": "-",
         "raw_vocal_credit": "高槻やよい(仁後真耶子),秋月律子(若林直美)"
@@ -14836,7 +14845,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1046,
         "music765plus_cargo_row_ids": [
-          24374
+          29967
         ],
         "page_url": "https://music765plus.com/%E8%8A%B1%E3%81%96%E3%81%8B%E3%82%8AWeekend%E2%9C%BF",
         "release_date": "2018-05-21",
@@ -14879,7 +14888,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1050,
         "music765plus_cargo_row_ids": [
-          29416
+          29954
         ],
         "page_url": "https://music765plus.com/RED_ZONE",
         "release_date": "2018-05-21",
@@ -15687,7 +15696,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1143,
         "music765plus_cargo_row_ids": [
-          23257
+          29875
         ],
         "page_url": "https://music765plus.com/%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%AE%E3%81%AF%E3%81%93%E3%82%93%E3%81%AA%E3%81%8D%E3%82%82%E3%81%A1",
         "release_date": "2018-02-14",
@@ -15775,8 +15784,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1147,
         "music765plus_cargo_row_ids": [
-          24388,
-          25366
+          29950
         ],
         "page_url": "https://music765plus.com/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%83%8A%E3%83%AA%E3%82%A3%E3%83%BB%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BC",
         "release_date": "2018-09-21",
@@ -16007,7 +16015,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1159,
         "music765plus_cargo_row_ids": [
-          23372
+          29872
         ],
         "page_url": "https://music765plus.com/%E3%82%A8%E3%82%A6%E3%83%AC%E3%82%AB%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC",
         "release_date": "2016-08-31",
@@ -16149,7 +16157,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1166,
         "music765plus_cargo_row_ids": [
-          25874
+          29871
         ],
         "page_url": "https://music765plus.com/Symphonic_Brave",
         "release_date": "2018-01-17",
@@ -17673,7 +17681,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1290,
         "music765plus_cargo_row_ids": [
-          25855
+          29889
         ],
         "page_url": "https://music765plus.com/With%E2%80%A6STORY",
         "release_date": "2016-10-26",
@@ -17734,7 +17742,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1303,
         "music765plus_cargo_row_ids": [
-          24533
+          29860
         ],
         "page_url": "https://music765plus.com/%E6%B0%B8%E9%81%A0%E3%81%AA%E3%82%8B%E5%9B%9B%E9%8A%83%E5%A3%AB",
         "release_date": "2018-02-12",
@@ -17820,7 +17828,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1309,
         "music765plus_cargo_row_ids": [
-          26164
+          29843
         ],
         "page_url": "https://music765plus.com/%E6%B5%81%E6%98%9FPARADE",
         "release_date": "2017-11-15",
@@ -17926,7 +17934,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1324,
         "music765plus_cargo_row_ids": [
-          25269
+          29888
         ],
         "page_url": "https://music765plus.com/Over_AGAIN",
         "release_date": "2018-01-17",
@@ -18035,7 +18043,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1330,
         "music765plus_cargo_row_ids": [
-          25426
+          29866
         ],
         "page_url": "https://music765plus.com/%E3%81%84%E3%81%A4%E3%81%8B%E3%81%93%E3%81%AE%E7%9E%AC%E9%96%93%E3%81%AB%E5%90%8D%E5%89%8D%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%AA%E3%82%89",
         "release_date": "2018-01-24",
@@ -18058,7 +18066,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1331,
         "music765plus_cargo_row_ids": [
-          25427
+          29900
         ],
         "page_url": "https://music765plus.com/Secret%EF%BC%81Playful%EF%BC%81Drive%EF%BC%81",
         "release_date": "2018-02-28",
@@ -18080,7 +18088,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1338,
         "music765plus_cargo_row_ids": [
-          24047
+          29883
         ],
         "page_url": "https://music765plus.com/Genesis_Contact",
         "release_date": "2017-08-30",
@@ -18423,7 +18431,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1593,
         "music765plus_cargo_row_ids": [
-          23611
+          29939
         ],
         "page_url": "https://music765plus.com/%E3%81%A0%E3%81%A3%E3%81%A6%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9",
         "release_date": "2019-01-20",
@@ -18442,7 +18450,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1594,
         "music765plus_cargo_row_ids": [
-          23612
+          29924
         ],
         "page_url": "https://music765plus.com/%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5%E3%83%BB%E3%83%9F%E3%83%A9%E3%83%BC",
         "release_date": "2019-02-27",
@@ -18528,7 +18536,7 @@
         "music765plus_cargo_row_ids": [
           25436
         ],
-        "page_url": "https://music765plus.com/Purely%26amp%3BKindly",
+        "page_url": "https://music765plus.com/Purely%26Kindly",
         "release_date": "2019-02-02",
         "raw_unit_label": "(WTフィンランド)",
         "raw_vocal_credit": "ピエール(堀江瞬),榊夏来(渡辺紘),蒼井享介(山谷祥生),清澄九郎(中田祐矢)"
@@ -18847,7 +18855,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1616,
         "music765plus_cargo_row_ids": [
-          28417
+          30436
         ],
         "page_url": "https://music765plus.com/Wandering_Dream_Chaser",
         "release_date": "2019-04-09",
@@ -18931,7 +18939,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1622,
         "music765plus_cargo_row_ids": [
-          22502
+          29933
         ],
         "page_url": "https://music765plus.com/Episode._Tiara",
         "release_date": "2019-04-19",
@@ -19326,7 +19334,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1661,
         "music765plus_cargo_row_ids": [
-          28139
+          29972
         ],
         "page_url": "https://music765plus.com/%E3%83%A9%E3%83%93%E3%83%83%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC",
         "release_date": "2019-08-21",
@@ -19503,7 +19511,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1692,
         "music765plus_cargo_row_ids": [
-          23326
+          29928
         ],
         "page_url": "https://music765plus.com/Girl_meets_Wonder",
         "release_date": "2019-09-19",
@@ -19565,7 +19573,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1695,
         "music765plus_cargo_row_ids": [
-          23969
+          29978
         ],
         "page_url": "https://music765plus.com/Cherry_Colored_Love",
         "release_date": "2019-11-18",
@@ -19690,7 +19698,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 1701,
         "music765plus_cargo_row_ids": [
-          23968
+          29852
         ],
         "page_url": "https://music765plus.com/ALL_nOR_NOTHING",
         "release_date": "2019-10-23",
@@ -19788,7 +19796,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2080,
         "music765plus_cargo_row_ids": [
-          23106
+          29976
         ],
         "page_url": "https://music765plus.com/%E5%A4%9C%E3%81%A8%E3%80%81%E6%98%8E%E3%81%8B%E3%82%8A%E3%81%A8%E3%80%82",
         "release_date": "2019-12-25",
@@ -19850,7 +19858,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2375,
         "music765plus_cargo_row_ids": [
-          23327
+          29919
         ],
         "page_url": "https://music765plus.com/%E7%99%BE%E8%8A%B1%E3%81%AF%E6%9C%88%E4%B8%8B%E3%81%AB%E6%95%A3%E3%82%8A%E3%81%AC%E3%82%8B%E3%82%92",
         "release_date": "2020-01-19",
@@ -19957,7 +19965,7 @@
         ],
         "page_url": "https://music765plus.com/Fine_Day%EF%BC%81_Find_Way%EF%BC%81",
         "release_date": "2020-01-22",
-        "raw_unit_label": "DRAMATIC STARS &amp; 神速一魂 &amp; F-LAGS",
+        "raw_unit_label": "DRAMATIC STARS & 神速一魂 & F-LAGS",
         "raw_vocal_credit": "天道輝(仲村宗悟),桜庭薫(内田雄馬),柏木翼(八代拓),紅井朱雀(益山武明),黒野玄武(深町寿成),秋月涼(三瓶由布子),九十九一希(徳武竜也),兜大吾(浦尾岳大)"
       }
     },
@@ -20300,7 +20308,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2447,
         "music765plus_cargo_row_ids": [
-          27473
+          29891
         ],
         "page_url": "https://music765plus.com/%E2%88%9AEVOLUTION",
         "release_date": "2020-03-18",
@@ -20346,11 +20354,11 @@
       "provenance": {
         "music765plus_wiki_page_id": 2449,
         "music765plus_cargo_row_ids": [
-          27475
+          29902
         ],
         "page_url": "https://music765plus.com/Bet_your_intuition%21",
         "release_date": "2020-03-18",
-        "raw_unit_label": "FRAME&amp;S.E.M&amp;Legenders",
+        "raw_unit_label": "FRAME&S.E.M&Legenders",
         "raw_vocal_credit": "握野英雄(熊谷健太郎),木村龍(濱健人),信玄誠司(増元拓也),硲道夫(伊東健人),舞田類(榎木淳弥),山下次郎(中島ヨシキ),葛之葉雨彦(笠間淳),北村想楽(汐谷文康),古論クリス(駒田航)"
       }
     },
@@ -20668,7 +20676,7 @@
         ],
         "page_url": "https://music765plus.com/Singing_Explorers",
         "release_date": "2020-04-22",
-        "raw_unit_label": "Altessimo&amp;彩&amp;High×Joker",
+        "raw_unit_label": "Altessimo&彩&High×Joker",
         "raw_vocal_credit": "神楽麗(永野由祐),都築圭(土岐隼一),華村翔真(バレッタ裕),猫柳キリオ(山下大輝),清澄九郎(中田祐矢),伊瀬谷四季(野上翔),秋山隼人(千葉翔也),若里春名(白井悠介),冬美旬(永塚拓馬),榊夏来(渡辺紘)"
       }
     },
@@ -21071,7 +21079,7 @@
         "music765plus_cargo_row_ids": [
           29267
         ],
-        "page_url": "https://music765plus.com/Hide_%26amp%3B_Attack",
+        "page_url": "https://music765plus.com/Hide_%26_Attack",
         "release_date": "2020-07-21",
         "raw_unit_label": "ストレイライト",
         "raw_vocal_credit": "芹沢あさひ(田中有紀),黛冬優子(幸村恵理),和泉愛依(北原沙弥香)"
@@ -21489,7 +21497,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2708,
         "music765plus_cargo_row_ids": [
-          29199
+          30298
         ],
         "page_url": "https://music765plus.com/THE_VILLAIN%27S_NIGHT",
         "release_date": "2020-10-20",
@@ -21574,7 +21582,7 @@
         ],
         "page_url": "https://music765plus.com/Black%E2%98%85Party",
         "release_date": "2020-10-20",
-        "raw_unit_label": "TRICK&amp;TREAT",
+        "raw_unit_label": "TRICK&TREAT",
         "raw_vocal_credit": "北上麗花(平山笑美),野々原茜(小笠原早紀)"
       }
     },
@@ -21614,7 +21622,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2717,
         "music765plus_cargo_row_ids": [
-          22894
+          29851
         ],
         "page_url": "https://music765plus.com/Braver_Beat",
         "release_date": "2020-10-21",
@@ -21634,7 +21642,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2718,
         "music765plus_cargo_row_ids": [
-          27020
+          29898
         ],
         "page_url": "https://music765plus.com/Radiant_Letter",
         "release_date": "2020-11-04",
@@ -21880,7 +21888,7 @@
         ],
         "page_url": "https://music765plus.com/%E3%83%95%E3%82%B7%E3%82%AE%E3%83%88%E3%83%A9%E3%83%99%E3%83%A9%E3%83%BC",
         "release_date": "2021-02-24",
-        "raw_unit_label": "TRICK&amp;TREAT",
+        "raw_unit_label": "TRICK&TREAT",
         "raw_vocal_credit": "北上麗花(平山笑美),野々原茜(小笠原早紀)"
       }
     },
@@ -21917,7 +21925,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2736,
         "music765plus_cargo_row_ids": [
-          27030
+          29842
         ],
         "page_url": "https://music765plus.com/Smiles_In_Wonderland%21",
         "release_date": "2021-01-06",
@@ -21935,7 +21943,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2737,
         "music765plus_cargo_row_ids": [
-          23814
+          30059
         ],
         "page_url": "https://music765plus.com/%E3%81%82%E3%82%8A%E3%81%A3%E3%81%9F%E3%81%91%E3%81%AE%E8%BC%9D%E3%81%8D%E3%81%A7",
         "release_date": "2020-12-18",
@@ -21977,7 +21985,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2739,
         "music765plus_cargo_row_ids": [
-          28449
+          30060
         ],
         "page_url": "https://music765plus.com/%E6%98%9F%E3%82%92%E3%82%81%E3%81%96%E3%81%97%E3%81%A6",
         "release_date": "2021-01-04",
@@ -21995,7 +22003,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2740,
         "music765plus_cargo_row_ids": [
-          29289
+          30079
         ],
         "page_url": "https://music765plus.com/%E5%A4%A2%E8%A6%8B%E9%B3%A5",
         "release_date": "2021-01-01",
@@ -22013,7 +22021,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2741,
         "music765plus_cargo_row_ids": [
-          25743
+          30057
         ],
         "page_url": "https://music765plus.com/%E3%82%A2%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB",
         "release_date": "2020-12-28",
@@ -22031,7 +22039,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2742,
         "music765plus_cargo_row_ids": [
-          26175
+          30067
         ],
         "page_url": "https://music765plus.com/%E3%83%81%E3%83%A7%E3%82%B3%E3%83%87%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC",
         "release_date": "2020-12-22",
@@ -22049,7 +22057,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2743,
         "music765plus_cargo_row_ids": [
-          27207
+          30062
         ],
         "page_url": "https://music765plus.com/Sweet_Memories",
         "release_date": "2020-12-25",
@@ -22067,7 +22075,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2744,
         "music765plus_cargo_row_ids": [
-          22631
+          30073
         ],
         "page_url": "https://music765plus.com/%E3%83%8F%E3%83%8A%E3%83%9E%E3%83%AB%E3%83%90%E3%83%83%E3%82%B8",
         "release_date": "2020-12-28",
@@ -22321,7 +22329,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2762,
         "music765plus_cargo_row_ids": [
-          25285
+          30074
         ],
         "page_url": "https://music765plus.com/%E8%AA%B0%E3%82%BD%E5%BD%BC%E3%82%A2%E3%82%A4%E3%83%87%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3%E3%83%BC",
         "release_date": "2021-01-12",
@@ -22339,7 +22347,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2763,
         "music765plus_cargo_row_ids": [
-          23140
+          30071
         ],
         "page_url": "https://music765plus.com/%E3%81%BE%E3%81%9F%E6%98%8E%E6%97%A5",
         "release_date": "2021-01-12",
@@ -22357,7 +22365,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2764,
         "music765plus_cargo_row_ids": [
-          23780
+          30069
         ],
         "page_url": "https://music765plus.com/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AC%E3%83%A9",
         "release_date": "2021-01-16",
@@ -22375,7 +22383,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2765,
         "music765plus_cargo_row_ids": [
-          29428
+          30066
         ],
         "page_url": "https://music765plus.com/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E4%B8%BB%E4%BA%BA%E5%85%AC%E3%81%AF%E3%82%8F%E3%81%9F%E3%81%97%E3%81%A0%E3%81%8B%E3%82%89%EF%BC%81",
         "release_date": "2021-01-19",
@@ -22393,7 +22401,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2766,
         "music765plus_cargo_row_ids": [
-          23357
+          30054
         ],
         "page_url": "https://music765plus.com/%E5%B8%B8%E5%92%B2%E3%81%AE%E5%BA%AD",
         "release_date": "2021-01-23",
@@ -22411,7 +22419,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2767,
         "music765plus_cargo_row_ids": [
-          29429
+          30077
         ],
         "page_url": "https://music765plus.com/Going_my_way",
         "release_date": "2021-01-31",
@@ -22429,7 +22437,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2768,
         "music765plus_cargo_row_ids": [
-          24329
+          30063
         ],
         "page_url": "https://music765plus.com/%E9%9B%AA%E3%83%BB%E6%9C%88%E3%83%BB%E9%A2%A8%E3%83%BB%E8%8A%B1",
         "release_date": "2021-01-27",
@@ -22447,7 +22455,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2769,
         "music765plus_cargo_row_ids": [
-          27248
+          30078
         ],
         "page_url": "https://music765plus.com/%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
         "release_date": "2021-01-31",
@@ -22552,7 +22560,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2774,
         "music765plus_cargo_row_ids": [
-          23818
+          30058
         ],
         "page_url": "https://music765plus.com/HAREBARE%21%21",
         "release_date": "2021-02-08",
@@ -22570,7 +22578,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2775,
         "music765plus_cargo_row_ids": [
-          23358
+          30053
         ],
         "page_url": "https://music765plus.com/Damascus_Cocktail",
         "release_date": "2021-02-08",
@@ -22588,7 +22596,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2776,
         "music765plus_cargo_row_ids": [
-          23820
+          30061
         ],
         "page_url": "https://music765plus.com/%E3%81%82%E3%81%8A%E3%81%9E%E3%82%89%E3%82%B5%E3%82%A4%E3%83%80%E3%83%BC",
         "release_date": "2021-02-12",
@@ -22606,7 +22614,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2777,
         "music765plus_cargo_row_ids": [
-          23812
+          30055
         ],
         "page_url": "https://music765plus.com/statice",
         "release_date": "2021-02-16",
@@ -22624,7 +22632,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2779,
         "music765plus_cargo_row_ids": [
-          26259
+          30052
         ],
         "page_url": "https://music765plus.com/%E5%8D%83%E5%A4%9C%E3%82%A2%E3%83%AA%E3%82%A2",
         "release_date": "2021-02-28",
@@ -22642,7 +22650,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2780,
         "music765plus_cargo_row_ids": [
-          23141
+          30056
         ],
         "page_url": "https://music765plus.com/Darling_you%21",
         "release_date": "2021-02-28",
@@ -22660,7 +22668,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2781,
         "music765plus_cargo_row_ids": [
-          28925
+          30072
         ],
         "page_url": "https://music765plus.com/SOS",
         "release_date": "2021-02-20",
@@ -22678,7 +22686,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2782,
         "music765plus_cargo_row_ids": [
-          22811
+          30068
         ],
         "page_url": "https://music765plus.com/%E9%81%8E%E7%B4%94%E6%80%A7%E3%83%96%E3%83%AA%E3%83%BC%E3%83%81",
         "release_date": "2021-02-24",
@@ -22819,7 +22827,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2825,
         "music765plus_cargo_row_ids": [
-          28266
+          29948
         ],
         "page_url": "https://music765plus.com/%E3%83%91%E3%83%B3%E3%81%A8%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0",
         "release_date": "2021-04-21",
@@ -22857,7 +22865,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2828,
         "music765plus_cargo_row_ids": [
-          27041
+          29881
         ],
         "page_url": "https://music765plus.com/Happy%27s_Birthday",
         "release_date": "2021-04-07",
@@ -23357,7 +23365,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2919,
         "music765plus_cargo_row_ids": [
-          26185
+          29936
         ],
         "page_url": "https://music765plus.com/DIAMOND_JOKER",
         "release_date": "2021-07-20",
@@ -23499,7 +23507,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 2931,
         "music765plus_cargo_row_ids": [
-          25033
+          29961
         ],
         "page_url": "https://music765plus.com/%E7%9C%9F%E5%A4%8F%E3%81%AE%E3%83%80%E3%82%A4%E3%83%A4%E2%98%86",
         "release_date": "2021-08-19",
@@ -23830,7 +23838,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3055,
         "music765plus_cargo_row_ids": [
-          23772
+          29856
         ],
         "page_url": "https://music765plus.com/Stories",
         "release_date": "2021-10-27",
@@ -24038,7 +24046,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3082,
         "music765plus_cargo_row_ids": [
-          25400
+          29846
         ],
         "page_url": "https://music765plus.com/SOOTHING_PLACE",
         "release_date": "2022-01-12",
@@ -24276,7 +24284,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3098,
         "music765plus_cargo_row_ids": [
-          29508
+          30317
         ],
         "page_url": "https://music765plus.com/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%80%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%80%E3%83%B3%E3%82%B9",
         "release_date": "2021-12-09",
@@ -24636,7 +24644,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3208,
         "music765plus_cargo_row_ids": [
-          23767
+          29910
         ],
         "page_url": "https://music765plus.com/%E7%B5%B5%E7%BE%BD%E6%A8%A1%E6%A7%98",
         "release_date": "2022-01-26",
@@ -24728,7 +24736,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3214,
         "music765plus_cargo_row_ids": [
-          22771
+          29974
         ],
         "page_url": "https://music765plus.com/%E9%80%B1%E6%9C%AB%E3%81%A0%E3%81%91%E3%81%AE%E3%83%8F%E3%83%BC%E3%83%AC%E3%82%AF%E3%82%A4%E3%83%B3",
         "release_date": "2022-01-26",
@@ -24768,7 +24776,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3216,
         "music765plus_cargo_row_ids": [
-          27056
+          29879
         ],
         "page_url": "https://music765plus.com/Teatime_Clich%C3%A9",
         "release_date": "2022-02-09",
@@ -24866,7 +24874,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3265,
         "music765plus_cargo_row_ids": [
-          27061
+          29840
         ],
         "page_url": "https://music765plus.com/%E3%81%84%E3%81%A8%E3%82%92%E3%81%8B%E3%81%97%EF%BC%81%E3%80%9C%E4%B8%80%E5%BD%A9%C3%97%E5%90%88%E5%BD%A9%E3%80%9C",
         "release_date": "2022-01-31",
@@ -24936,7 +24944,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3275,
         "music765plus_cargo_row_ids": [
-          27060
+          29863
         ],
         "page_url": "https://music765plus.com/%E5%BD%A9%E3%83%AA%E3%83%8E%E6%AD%8C",
         "release_date": "2022-04-06",
@@ -25487,7 +25495,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3315,
         "music765plus_cargo_row_ids": [
-          22700
+          29932
         ],
         "page_url": "https://music765plus.com/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%BB%E3%83%80%E3%83%B3%E3%82%B9%EF%BC%9F",
         "release_date": "2022-04-27",
@@ -25524,7 +25532,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3317,
         "music765plus_cargo_row_ids": [
-          27064
+          29890
         ],
         "page_url": "https://music765plus.com/Sign_of_Hope",
         "release_date": "2022-06-08",
@@ -25585,7 +25593,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3320,
         "music765plus_cargo_row_ids": [
-          27067
+          29869
         ],
         "page_url": "https://music765plus.com/K.now_O.nly",
         "release_date": "2022-04-30",
@@ -25768,7 +25776,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3332,
         "music765plus_cargo_row_ids": [
-          23615
+          29955
         ],
         "page_url": "https://music765plus.com/it%27s_me",
         "release_date": "2022-05-25",
@@ -25788,7 +25796,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3333,
         "music765plus_cargo_row_ids": [
-          27069
+          29870
         ],
         "page_url": "https://music765plus.com/Made_in%E3%80%8C_%E2%99%AA_%E3%80%8D",
         "release_date": "2022-05-31",
@@ -25872,7 +25880,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3338,
         "music765plus_cargo_row_ids": [
-          27068
+          29848
         ],
         "page_url": "https://music765plus.com/Casually%21",
         "release_date": "2022-08-03",
@@ -26126,7 +26134,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3353,
         "music765plus_cargo_row_ids": [
-          27144
+          29865
         ],
         "page_url": "https://music765plus.com/Trust_me_now",
         "release_date": "2022-07-20",
@@ -26436,7 +26444,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3388,
         "music765plus_cargo_row_ids": [
-          27071
+          29845
         ],
         "page_url": "https://music765plus.com/%E3%82%BF%E3%82%BD%E3%82%AC%E3%83%AC%E3%83%89%E3%82%AD%E3%80%81Bluesy",
         "release_date": "2022-09-07",
@@ -26867,7 +26875,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3540,
         "music765plus_cargo_row_ids": [
-          27076
+          29862
         ],
         "page_url": "https://music765plus.com/Change_to_Chance",
         "release_date": "2022-09-30",
@@ -27634,7 +27642,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3779,
         "music765plus_cargo_row_ids": [
-          28396
+          29894
         ],
         "page_url": "https://music765plus.com/MIRROR_of_TRUTH",
         "release_date": "2022-11-30",
@@ -27906,7 +27914,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3798,
         "music765plus_cargo_row_ids": [
-          23595
+          29921
         ],
         "page_url": "https://music765plus.com/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%BB%E3%82%A8%E3%83%94%E3%82%BD%E3%83%BC%E3%83%89",
         "release_date": "2023-01-18",
@@ -27928,7 +27936,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3799,
         "music765plus_cargo_row_ids": [
-          27085
+          29847
         ],
         "page_url": "https://music765plus.com/Toward_Pole_Star",
         "release_date": "2023-03-08",
@@ -28249,7 +28257,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3824,
         "music765plus_cargo_row_ids": [
-          27851
+          29981
         ],
         "page_url": "https://music765plus.com/%E6%98%A5%E9%A2%A8%E6%BA%80%E5%B8%86%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0",
         "release_date": "2023-03-18",
@@ -28462,7 +28470,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3842,
         "music765plus_cargo_row_ids": [
-          27180
+          29893
         ],
         "page_url": "https://music765plus.com/Eclipse_of_the_Heart",
         "release_date": "2023-05-31",
@@ -28589,7 +28597,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3849,
         "music765plus_cargo_row_ids": [
-          29067
+          30285
         ],
         "page_url": "https://music765plus.com/%E3%82%B5%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%97",
         "release_date": "2023-04-28",
@@ -28848,7 +28856,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3889,
         "music765plus_cargo_row_ids": [
-          24021
+          29940
         ],
         "page_url": "https://music765plus.com/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AF%E8%8A%B1%E3%80%81%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E5%A4%AA%E9%99%BD",
         "release_date": "2023-05-26",
@@ -29361,7 +29369,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3925,
         "music765plus_cargo_row_ids": [
-          29427
+          30075
         ],
         "page_url": "https://music765plus.com/%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%AB",
         "release_date": "2023-07-22",
@@ -29379,7 +29387,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3926,
         "music765plus_cargo_row_ids": [
-          22475
+          30070
         ],
         "page_url": "https://music765plus.com/Look_up_to_the_sky",
         "release_date": "2023-07-22",
@@ -29712,7 +29720,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3955,
         "music765plus_cargo_row_ids": [
-          29420
+          29973
         ],
         "page_url": "https://music765plus.com/Dance_in_the_Light",
         "release_date": "2023-09-01",
@@ -29948,7 +29956,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3971,
         "music765plus_cargo_row_ids": [
-          22506
+          29962
         ],
         "page_url": "https://music765plus.com/%E6%B5%B7%E9%A2%A8%E3%81%A8%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%8D%E3%83%83%E3%83%88",
         "release_date": "2023-09-08",
@@ -29993,7 +30001,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3973,
         "music765plus_cargo_row_ids": [
-          28154
+          29915
         ],
         "page_url": "https://music765plus.com/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%8E%E3%82%AD%E3%82%AA%E3%82%AF",
         "release_date": "2023-09-29",
@@ -30205,7 +30213,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3985,
         "music765plus_cargo_row_ids": [
-          25443
+          29859
         ],
         "page_url": "https://music765plus.com/Secret_Light",
         "release_date": "2023-11-18",
@@ -30247,7 +30255,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3987,
         "music765plus_cargo_row_ids": [
-          23923
+          30466
         ],
         "page_url": "https://music765plus.com/%E6%9D%A5%E6%9D%A5%E7%BE%8E%E9%A3%9F",
         "release_date": "2023-10-29",
@@ -30287,7 +30295,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 3992,
         "music765plus_cargo_row_ids": [
-          28636
+          30477
         ],
         "page_url": "https://music765plus.com/%E8%A3%B8%E8%B6%B3%E3%81%98%E3%82%83%E3%82%A4%E3%83%A9%E3%83%AC%E3%83%8A%E3%82%A4",
         "release_date": "2023-11-15",
@@ -30527,7 +30535,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4015,
         "music765plus_cargo_row_ids": [
-          28856
+          30308
         ],
         "page_url": "https://music765plus.com/%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
         "release_date": "2023-11-26",
@@ -30547,7 +30555,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4016,
         "music765plus_cargo_row_ids": [
-          23924
+          30456
         ],
         "page_url": "https://music765plus.com/Face_the_World",
         "release_date": "2023-12-27",
@@ -30567,7 +30575,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4017,
         "music765plus_cargo_row_ids": [
-          25897
+          30458
         ],
         "page_url": "https://music765plus.com/Amber_Color_Oasis",
         "release_date": "2023-12-27",
@@ -30587,7 +30595,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4018,
         "music765plus_cargo_row_ids": [
-          23583
+          30459
         ],
         "page_url": "https://music765plus.com/%E3%80%8C%E3%81%BE%E3%81%9F%E6%98%8E%E6%97%A5%E3%80%8D%E3%81%AE%E7%B4%84%E6%9D%9F%E3%82%92",
         "release_date": "2023-12-27",
@@ -30627,7 +30635,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4022,
         "music765plus_cargo_row_ids": [
-          28660
+          30478
         ],
         "page_url": "https://music765plus.com/%E6%98%8E%E6%97%A5%E3%82%82Beautiful_Day",
         "release_date": "2023-11-30",
@@ -30693,7 +30701,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4026,
         "music765plus_cargo_row_ids": [
-          23904
+          30460
         ],
         "page_url": "https://music765plus.com/Heartmade_Cookies",
         "release_date": "2024-01-31",
@@ -30715,7 +30723,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4027,
         "music765plus_cargo_row_ids": [
-          23584
+          30461
         ],
         "page_url": "https://music765plus.com/Dear_you%2C_Cheers%21%21",
         "release_date": "2024-01-31",
@@ -30735,7 +30743,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4028,
         "music765plus_cargo_row_ids": [
-          22954
+          30465
         ],
         "page_url": "https://music765plus.com/%E3%81%8B%E3%82%89%E3%81%B5%E3%82%8B%E3%83%BB%E3%81%A8%E3%82%8C%E3%81%98%E3%82%83%EF%BD%9E%E3%82%8F%EF%BD%9E%E3%82%8B%E3%81%A9%EF%BC%81",
         "release_date": "2024-01-31",
@@ -30775,7 +30783,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4030,
         "music765plus_cargo_row_ids": [
-          29249
+          30480
         ],
         "page_url": "https://music765plus.com/%E3%83%8F%E3%83%8A%E3%83%A0%E3%82%B1%E3%81%AE%E3%83%8F%E3%83%8A%E3%82%BF%E3%83%90",
         "release_date": "2023-12-31",
@@ -30861,7 +30869,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4038,
         "music765plus_cargo_row_ids": [
-          27926
+          29853
         ],
         "page_url": "https://music765plus.com/%E5%9B%9B%E5%BF%83%E4%BA%89%E4%B9%B1_-%E5%A4%A9%E5%9C%B0%E4%B8%80%E6%8C%87-",
         "release_date": "2024-02-10",
@@ -30924,7 +30932,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4043,
         "music765plus_cargo_row_ids": [
-          28643
+          30479
         ],
         "page_url": "https://music765plus.com/%E9%9D%92%E7%A9%BA",
         "release_date": "2024-01-31",
@@ -31145,7 +31153,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4101,
         "music765plus_cargo_row_ids": [
-          26136
+          30463
         ],
         "page_url": "https://music765plus.com/%E5%AE%B5%E9%97%87%E3%81%AE%E3%82%A4%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3",
         "release_date": "2024-03-27",
@@ -31165,7 +31173,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4102,
         "music765plus_cargo_row_ids": [
-          25864
+          30464
         ],
         "page_url": "https://music765plus.com/%E7%A9%B6%E6%A5%B5%E2%80%A6FIGHTING",
         "release_date": "2024-03-27",
@@ -31204,7 +31212,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4110,
         "music765plus_cargo_row_ids": [
-          28654
+          30476
         ],
         "page_url": "https://music765plus.com/Happier",
         "release_date": "2024-02-29",
@@ -31341,7 +31349,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4118,
         "music765plus_cargo_row_ids": [
-          23419
+          29841
         ],
         "page_url": "https://music765plus.com/Feeeel_Gooood%EF%BC%81",
         "release_date": "2024-04-24",
@@ -31424,7 +31432,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4186,
         "music765plus_cargo_row_ids": [
-          28645
+          30473
         ],
         "page_url": "https://music765plus.com/%E6%9E%95%E6%9C%A8%E3%81%AE%E6%AD%8C",
         "release_date": "2024-03-31",
@@ -31468,7 +31476,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4190,
         "music765plus_cargo_row_ids": [
-          25446
+          29895
         ],
         "page_url": "https://music765plus.com/ONE_LIFE",
         "release_date": "2024-04-13",
@@ -31587,7 +31595,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4198,
         "music765plus_cargo_row_ids": [
-          28659
+          30474
         ],
         "page_url": "https://music765plus.com/%E6%99%82%E9%99%90%E5%BC%8F%E7%8B%82%E9%A8%92%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
         "release_date": "2024-04-30",
@@ -31605,7 +31613,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4201,
         "music765plus_cargo_row_ids": [
-          29745
+          30426
         ],
         "page_url": "https://music765plus.com/Fighting_My_Way",
         "release_date": "2024-05-01",
@@ -31623,7 +31631,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4202,
         "music765plus_cargo_row_ids": [
-          29748
+          30402
         ],
         "page_url": "https://music765plus.com/Luna_say_maybe",
         "release_date": "2024-05-02",
@@ -31677,7 +31685,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4205,
         "music765plus_cargo_row_ids": [
-          28837
+          30269
         ],
         "page_url": "https://music765plus.com/Tame-Lie-One-Step",
         "release_date": "2024-05-05",
@@ -31713,7 +31721,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4207,
         "music765plus_cargo_row_ids": [
-          29678
+          30429
         ],
         "page_url": "https://music765plus.com/%E7%99%BD%E7%B7%9A",
         "release_date": "2024-05-07",
@@ -31731,7 +31739,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4208,
         "music765plus_cargo_row_ids": [
-          28827
+          30002
         ],
         "page_url": "https://music765plus.com/Wonder_Scale",
         "release_date": "2024-05-08",
@@ -31749,7 +31757,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4209,
         "music765plus_cargo_row_ids": [
-          29669
+          30270
         ],
         "page_url": "https://music765plus.com/Fluorite",
         "release_date": "2024-05-09",
@@ -31789,7 +31797,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4211,
         "music765plus_cargo_row_ids": [
-          23126
+          29873
         ],
         "page_url": "https://music765plus.com/%E5%B9%B8%E7%87%A6%E7%87%A6%E3%81%A8%EF%BC%81",
         "release_date": "2024-05-29",
@@ -32032,7 +32040,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4223,
         "music765plus_cargo_row_ids": [
-          24141
+          29844
         ],
         "page_url": "https://music765plus.com/Precious_ordinary_days",
         "release_date": "2024-06-26",
@@ -32089,7 +32097,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4229,
         "music765plus_cargo_row_ids": [
-          28656
+          30475
         ],
         "page_url": "https://music765plus.com/LINKs",
         "release_date": "2024-05-31",
@@ -32321,7 +32329,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4247,
         "music765plus_cargo_row_ids": [
-          28963
+          30403
         ],
         "page_url": "https://music765plus.com/%E3%82%AD%E3%83%9F%E3%81%A8%E3%82%BB%E3%83%9F%E3%83%96%E3%83%AB%E3%83%BC",
         "release_date": "2024-07-01",
@@ -32604,7 +32612,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4264,
         "music765plus_cargo_row_ids": [
-          29309
+          30279
         ],
         "page_url": "https://music765plus.com/%E3%81%A8%E3%82%82%E3%81%99%E3%82%8C%E3%81%B0%E3%80%81%EF%BC%88%E4%B8%AD%E7%95%A5%EF%BC%89%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB",
         "release_date": "2024-06-30",
@@ -32624,7 +32632,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4267,
         "music765plus_cargo_row_ids": [
-          29422
+          30210
         ],
         "page_url": "https://music765plus.com/%E5%86%A0%E8%8F%8A",
         "release_date": "2024-08-01",
@@ -32642,7 +32650,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4268,
         "music765plus_cargo_row_ids": [
-          27988
+          30000
         ],
         "page_url": "https://music765plus.com/%E6%86%A7%E3%82%8C%E3%82%92%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84",
         "release_date": "2024-08-01",
@@ -32662,7 +32670,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4269,
         "music765plus_cargo_row_ids": [
-          28967
+          30360
         ],
         "page_url": "https://music765plus.com/%E3%81%8C%E3%82%80%E3%81%97%E3%82%83%E3%82%89%E3%81%AB%E8%A1%8C%E3%81%93%E3%81%86%EF%BC%81",
         "release_date": "2024-08-09",
@@ -32802,7 +32810,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4294,
         "music765plus_cargo_row_ids": [
-          24008
+          30007
         ],
         "page_url": "https://music765plus.com/%E6%97%A5%E3%80%85%E3%80%81%E7%99%BA%E8%A6%8B%E7%9A%84%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%81",
         "release_date": "2024-08-21",
@@ -32822,7 +32830,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4295,
         "music765plus_cargo_row_ids": [
-          29192
+          30416
         ],
         "page_url": "https://music765plus.com/Howling_over_the_World",
         "release_date": "2024-08-16",
@@ -32878,7 +32886,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4298,
         "music765plus_cargo_row_ids": [
-          28956
+          30384
         ],
         "page_url": "https://music765plus.com/%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%8A%E3%83%8A%E3%82%A6%28%EF%BE%9F%E2%88%80%EF%BE%9F%29%EF%BC%81",
         "release_date": "2024-08-23",
@@ -32956,7 +32964,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4306,
         "music765plus_cargo_row_ids": [
-          29339
+          30444
         ],
         "page_url": "https://music765plus.com/%E7%BE%A4%E9%9D%92%E3%82%A4%E3%83%8B%E3%82%B7%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
         "release_date": "2024-08-30",
@@ -33012,7 +33020,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4313,
         "music765plus_cargo_row_ids": [
-          29657
+          30404
         ],
         "page_url": "https://music765plus.com/Feel_Jewel_Dream",
         "release_date": "2024-09-20",
@@ -33092,7 +33100,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4321,
         "music765plus_cargo_row_ids": [
-          28826
+          30009
         ],
         "page_url": "https://music765plus.com/%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8D%E3%81%AE%E3%82%BD%E3%83%AB%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B8%E3%83%A5",
         "release_date": "2024-09-07",
@@ -33231,7 +33239,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4328,
         "music765plus_cargo_row_ids": [
-          29342
+          30385
         ],
         "page_url": "https://music765plus.com/%E4%BB%AE%E8%A3%85%E7%8B%82%E9%A8%92%E6%9B%B2",
         "release_date": "2024-09-29",
@@ -33350,7 +33358,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4338,
         "music765plus_cargo_row_ids": [
-          28028
+          29999
         ],
         "page_url": "https://music765plus.com/%E3%82%AB%E3%82%AF%E3%82%B7%E3%82%BF%E3%83%AF%E3%82%BF%E3%82%B7",
         "release_date": "2024-10-14",
@@ -33368,7 +33376,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4339,
         "music765plus_cargo_row_ids": [
-          29058
+          30012
         ],
         "page_url": "https://music765plus.com/Kira_Kira",
         "release_date": "2024-10-14",
@@ -33422,7 +33430,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4348,
         "music765plus_cargo_row_ids": [
-          29257
+          30004
         ],
         "page_url": "https://music765plus.com/Choo_Choo_Choo",
         "release_date": "2024-11-10",
@@ -33441,7 +33449,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4349,
         "music765plus_cargo_row_ids": [
-          28919
+          30435
         ],
         "page_url": "https://music765plus.com/Monochromatic",
         "release_date": "2024-10-05",
@@ -33499,7 +33507,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4358,
         "music765plus_cargo_row_ids": [
-          29646
+          30421
         ],
         "page_url": "https://music765plus.com/Ride_on_Beat",
         "release_date": "2024-11-11",
@@ -33653,7 +33661,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4367,
         "music765plus_cargo_row_ids": [
-          29425
+          30274
         ],
         "page_url": "https://music765plus.com/%E3%81%8D%E3%81%BF%E3%81%AE%E4%B8%80%E7%AD%89%E6%98%9F",
         "release_date": "2024-11-11",
@@ -33693,7 +33701,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4370,
         "music765plus_cargo_row_ids": [
-          29264
+          30003
         ],
         "page_url": "https://music765plus.com/%E5%B0%8F%E3%81%95%E3%81%AA%E9%87%8E%E6%9C%9B",
         "release_date": "2024-11-15",
@@ -33714,7 +33722,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4371,
         "music765plus_cargo_row_ids": [
-          23765
+          29931
         ],
         "page_url": "https://music765plus.com/Stellar_Light",
         "release_date": "2024-11-17",
@@ -33733,7 +33741,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4372,
         "music765plus_cargo_row_ids": [
-          27385
+          29878
         ],
         "page_url": "https://music765plus.com/Vivamente%EF%BC%81",
         "release_date": "2024-11-27",
@@ -33810,7 +33818,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4376,
         "music765plus_cargo_row_ids": [
-          24260
+          30064
         ],
         "page_url": "https://music765plus.com/%E7%84%A1%E5%9E%A2",
         "release_date": "2024-11-21",
@@ -33828,7 +33836,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4377,
         "music765plus_cargo_row_ids": [
-          23222
+          30065
         ],
         "page_url": "https://music765plus.com/%E5%A4%A2%E6%A8%A1%E6%A7%98%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9",
         "release_date": "2024-12-04",
@@ -33848,7 +33856,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4378,
         "music765plus_cargo_row_ids": [
-          28965
+          30212
         ],
         "page_url": "https://music765plus.com/White_Night%21_White_Wish%21",
         "release_date": "2024-11-28",
@@ -33910,7 +33918,7 @@
         "music765plus_cargo_row_ids": [
           27393
         ],
-        "page_url": "https://music765plus.com/SUPER_KICK_%26amp%3B_RAP",
+        "page_url": "https://music765plus.com/SUPER_KICK_%26_RAP",
         "release_date": "2024-12-25",
         "raw_unit_label": "Ｗ",
         "raw_vocal_credit": "蒼井享介(山谷祥生),蒼井悠介(菊池勇成)"
@@ -33927,7 +33935,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4382,
         "music765plus_cargo_row_ids": [
-          27394
+          29864
         ],
         "page_url": "https://music765plus.com/PLAY_FOR_FUN-TASY",
         "release_date": "2024-12-25",
@@ -34074,7 +34082,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4391,
         "music765plus_cargo_row_ids": [
-          26940
+          30411
         ],
         "page_url": "https://music765plus.com/Cosmetic",
         "release_date": "2024-12-07",
@@ -34132,7 +34140,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4444,
         "music765plus_cargo_row_ids": [
-          28840
+          30401
         ],
         "page_url": "https://music765plus.com/%E3%83%84%E3%82%AD%E3%83%8E%E3%82%AB%E3%83%A1",
         "release_date": "2025-02-06",
@@ -34287,7 +34295,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4452,
         "music765plus_cargo_row_ids": [
-          29290
+          30076
         ],
         "page_url": "https://music765plus.com/1/3",
         "release_date": "2024-12-04",
@@ -34346,7 +34354,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4455,
         "music765plus_cargo_row_ids": [
-          28463
+          30286
         ],
         "page_url": "https://music765plus.com/%E3%81%82%E3%81%A3%E3%81%A1%E3%81%93%E3%81%A3%E3%81%A1%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9",
         "release_date": "2024-12-14",
@@ -34364,7 +34372,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 4456,
         "music765plus_cargo_row_ids": [
-          29610
+          30254
         ],
         "page_url": "https://music765plus.com/%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%A4",
         "release_date": "2024-12-14",
@@ -34529,7 +34537,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5165,
         "music765plus_cargo_row_ids": [
-          29613
+          30407
         ],
         "page_url": "https://music765plus.com/Star-mine",
         "release_date": "2025-05-24",
@@ -34549,7 +34557,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5166,
         "music765plus_cargo_row_ids": [
-          28944
+          30419
         ],
         "page_url": "https://music765plus.com/%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%AE%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9",
         "release_date": "2025-05-01",
@@ -34628,7 +34636,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5738,
         "music765plus_cargo_row_ids": [
-          25881
+          29858
         ],
         "page_url": "https://music765plus.com/Stillness%E2%89%92Movement",
         "release_date": "2025-02-19",
@@ -34648,7 +34656,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5745,
         "music765plus_cargo_row_ids": [
-          28971
+          30383
         ],
         "page_url": "https://music765plus.com/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%83%9F%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC%E3%83%A6",
         "release_date": "2025-02-01",
@@ -34710,7 +34718,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5803,
         "music765plus_cargo_row_ids": [
-          27663
+          29993
         ],
         "page_url": "https://music765plus.com/%E3%81%9F%E3%81%84%E3%81%9B%E3%81%A4%E3%81%AA%E3%82%82%E3%81%AE",
         "release_date": "2025-02-06",
@@ -34754,7 +34762,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5806,
         "music765plus_cargo_row_ids": [
-          23590
+          29838
         ],
         "page_url": "https://music765plus.com/Chocolate_Special",
         "release_date": "2025-03-05",
@@ -34774,7 +34782,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5807,
         "music765plus_cargo_row_ids": [
-          29296
+          30431
         ],
         "page_url": "https://music765plus.com/ENDLESS_DANCE",
         "release_date": "2025-02-08",
@@ -34812,7 +34820,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 5832,
         "music765plus_cargo_row_ids": [
-          28833
+          30016
         ],
         "page_url": "https://music765plus.com/Our_Chant",
         "release_date": "2025-02-08",
@@ -34830,7 +34838,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6155,
         "music765plus_cargo_row_ids": [
-          28839
+          30253
         ],
         "page_url": "https://music765plus.com/%E3%83%A8%E3%83%AB%E3%83%8B%E3%83%86",
         "release_date": "2025-02-11",
@@ -34848,7 +34856,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6156,
         "music765plus_cargo_row_ids": [
-          28408
+          30438
         ],
         "page_url": "https://music765plus.com/Breaker",
         "release_date": "2025-02-15",
@@ -34866,7 +34874,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6157,
         "music765plus_cargo_row_ids": [
-          27907
+          30280
         ],
         "page_url": "https://music765plus.com/%E8%99%B9%E3%81%AE%E7%8E%8B%E5%9B%BD%E3%81%AE%E7%89%A9%E8%AA%9E%E3%80%9C%E3%82%A8%E3%83%88%E3%83%AF%E3%83%BC%E3%83%AB%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6%E3%80%9C",
         "release_date": "2025-02-15",
@@ -34964,7 +34972,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6162,
         "music765plus_cargo_row_ids": [
-          29294
+          30021
         ],
         "page_url": "https://music765plus.com/SHOOTING_STAR",
         "release_date": "2025-03-19",
@@ -35046,7 +35054,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6181,
         "music765plus_cargo_row_ids": [
-          28968
+          30206
         ],
         "page_url": "https://music765plus.com/%E9%9B%AA%E8%A7%A3%E3%81%91%E3%81%AB",
         "release_date": "2025-02-28",
@@ -35247,7 +35255,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6211,
         "music765plus_cargo_row_ids": [
-          23078
+          29839
         ],
         "page_url": "https://music765plus.com/Miraculous_White_Day",
         "release_date": "2025-04-16",
@@ -35267,7 +35275,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6212,
         "music765plus_cargo_row_ids": [
-          27950
+          30432
         ],
         "page_url": "https://music765plus.com/%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%B3",
         "release_date": "2025-03-21",
@@ -35324,7 +35332,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6218,
         "music765plus_cargo_row_ids": [
-          28958
+          30207
         ],
         "page_url": "https://music765plus.com/%E6%A1%9C%E3%83%95%E3%82%A9%E3%83%88%E3%82%B0%E3%83%A9%E3%83%95",
         "release_date": "2025-04-01",
@@ -35542,7 +35550,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6239,
         "music765plus_cargo_row_ids": [
-          25450
+          29886
         ],
         "page_url": "https://music765plus.com/%E3%83%A0%E3%82%B2%E3%83%B3%E3%83%80%E3%82%A4%E3%82%B0%E3%83%AD%E3%82%A6%E3%82%A2%E3%83%83%E3%83%97%EF%BC%81",
         "release_date": "2025-05-17",
@@ -35565,7 +35573,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6240,
         "music765plus_cargo_row_ids": [
-          25451
+          29885
         ],
         "page_url": "https://music765plus.com/GRAND-NEW_UNIVERSE",
         "release_date": "2025-05-18",
@@ -35720,7 +35728,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6254,
         "music765plus_cargo_row_ids": [
-          28020
+          29991
         ],
         "page_url": "https://music765plus.com/Superlative",
         "release_date": "2025-05-24",
@@ -35738,7 +35746,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6255,
         "music765plus_cargo_row_ids": [
-          29670
+          30433
         ],
         "page_url": "https://music765plus.com/%E3%82%B0%E3%83%BC%E3%82%B9%E3%83%BC%E3%83%94%E3%83%BC",
         "release_date": "2025-05-25",
@@ -35864,7 +35872,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6261,
         "music765plus_cargo_row_ids": [
-          28751
+          29971
         ],
         "page_url": "https://music765plus.com/Luvliminal_image",
         "release_date": "2025-06-16",
@@ -35883,7 +35891,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6263,
         "music765plus_cargo_row_ids": [
-          28943
+          30395
         ],
         "page_url": "https://music765plus.com/%E3%81%BF%E3%81%A1%E3%81%AA%E3%82%8B%E3%81%B2%E3%82%8D%E3%81%8C%E3%82%8B",
         "release_date": "2025-01-27",
@@ -35902,10 +35910,10 @@
       "provenance": {
         "music765plus_wiki_page_id": 6264,
         "music765plus_cargo_row_ids": [
-          28991
+          30410
         ],
         "page_url": "https://music765plus.com/SUGAR_FLAVOR",
-        "release_date": "2025-05-31",
+        "release_date": "2026-06-15",
         "raw_unit_label": "RippleSign",
         "raw_vocal_credit": "有村麻央(七瀬つむぎ),姫崎莉波(薄井友里)"
       }
@@ -35921,7 +35929,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6265,
         "music765plus_cargo_row_ids": [
-          29609
+          30423
         ],
         "page_url": "https://music765plus.com/%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8D%E3%82%A8%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
         "release_date": "2025-04-01",
@@ -35939,9 +35947,9 @@
       "provenance": {
         "music765plus_wiki_page_id": 6268,
         "music765plus_cargo_row_ids": [
-          29259
+          29997
         ],
-        "page_url": "https://music765plus.com/Love_%26amp%3B_Joy",
+        "page_url": "https://music765plus.com/Love_%26_Joy",
         "release_date": "2025-06-19",
         "raw_unit_label": "(ソロ・清夏)",
         "raw_vocal_credit": "紫雲清夏(湊みや)"
@@ -35959,7 +35967,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6274,
         "music765plus_cargo_row_ids": [
-          29338
+          29904
         ],
         "page_url": "https://music765plus.com/Beyond_My_Destiny",
         "release_date": "2025-06-27",
@@ -36181,7 +36189,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6482,
         "music765plus_cargo_row_ids": [
-          29733
+          30400
         ],
         "page_url": "https://music765plus.com/%E3%82%B5%E3%83%B3%E3%83%95%E3%82%A7%E3%83%BC%E3%83%87%E3%83%83%E3%83%89",
         "release_date": "2025-07-17",
@@ -36204,7 +36212,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6483,
         "music765plus_cargo_row_ids": [
-          28206
+          29913
         ],
         "page_url": "https://music765plus.com/Hug_a_nice_day%21",
         "release_date": "2025-07-19",
@@ -36222,7 +36230,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6489,
         "music765plus_cargo_row_ids": [
-          29053
+          29906
         ],
         "page_url": "https://music765plus.com/%E3%82%A2%E3%82%A8%E3%83%AB%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB",
         "release_date": "2025-07-28",
@@ -36371,7 +36379,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6508,
         "music765plus_cargo_row_ids": [
-          26521
+          29903
         ],
         "page_url": "https://music765plus.com/Wonderlander%27s_Party",
         "release_date": "2025-10-01",
@@ -36680,7 +36688,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6727,
         "music765plus_cargo_row_ids": [
-          29656
+          30417
         ],
         "page_url": "https://music765plus.com/36%E2%84%83_U%EF%BD%A5B%EF%BD%A5U",
         "release_date": "2025-09-17",
@@ -36698,7 +36706,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6742,
         "music765plus_cargo_row_ids": [
-          29786
+          30252
         ],
         "page_url": "https://music765plus.com/ZeroGravity",
         "release_date": "2025-09-12",
@@ -36741,7 +36749,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6831,
         "music765plus_cargo_row_ids": [
-          28207
+          29917
         ],
         "page_url": "https://music765plus.com/%E9%89%84%E3%81%AE%E7%BE%BD%E3%81%AE%E3%82%A8%E3%82%AF%E3%82%BD%E3%83%80%E3%82%B9",
         "release_date": "2025-09-18",
@@ -36762,7 +36770,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6832,
         "music765plus_cargo_row_ids": [
-          26516
+          29868
         ],
         "page_url": "https://music765plus.com/%E7%AB%9C%E5%AE%AE%E9%80%A2%E5%B9%BB%E8%A8%98",
         "release_date": "2025-11-05",
@@ -36799,7 +36807,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6838,
         "music765plus_cargo_row_ids": [
-          29757
+          30442
         ],
         "page_url": "https://music765plus.com/%E7%90%86%E8%AB%96%E6%AD%A6%E8%A3%85%E3%81%97%E3%81%A6",
         "release_date": "2025-09-21",
@@ -36860,7 +36868,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 6970,
         "music765plus_cargo_row_ids": [
-          26511
+          29850
         ],
         "page_url": "https://music765plus.com/CAST_A_SPELL",
         "release_date": "2025-12-03",
@@ -36954,7 +36962,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7075,
         "music765plus_cargo_row_ids": [
-          28947
+          30406
         ],
         "page_url": "https://music765plus.com/%E7%A9%BA%E3%81%A8%E7%B4%84%E6%9D%9F",
         "release_date": "2025-10-21",
@@ -37013,7 +37021,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7160,
         "music765plus_cargo_row_ids": [
-          29490
+          30146
         ],
         "page_url": "https://music765plus.com/%E3%82%82%E3%81%97%E3%82%82%E3%80%8C%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4%E3%80%8D%E3%81%8C%E4%B8%96%E7%95%8C%E3%81%8B%E3%82%89%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82",
         "release_date": "2025-10-24",
@@ -37032,7 +37040,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7424,
         "music765plus_cargo_row_ids": [
-          25995
+          30147
         ],
         "page_url": "https://music765plus.com/%E6%81%92%E4%B9%85%E3%81%AE%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9",
         "release_date": "2025-11-15",
@@ -37072,7 +37080,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7476,
         "music765plus_cargo_row_ids": [
-          29054
+          30486
         ],
         "page_url": "https://music765plus.com/%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3%E3%83%A9%E3%83%96",
         "release_date": "2025-11-10",
@@ -37115,7 +37123,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7478,
         "music765plus_cargo_row_ids": [
-          26506
+          29874
         ],
         "page_url": "https://music765plus.com/LET%27S_HAVE%21",
         "release_date": "2026-01-07",
@@ -37133,7 +37141,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7641,
         "music765plus_cargo_row_ids": [
-          29340
+          30437
         ],
         "page_url": "https://music765plus.com/Glass",
         "release_date": "2025-11-11",
@@ -37170,7 +37178,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7643,
         "music765plus_cargo_row_ids": [
-          28465
+          30282
         ],
         "page_url": "https://music765plus.com/%E3%82%A8%E3%82%AD%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%96",
         "release_date": "2025-11-15",
@@ -37190,7 +37198,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7686,
         "music765plus_cargo_row_ids": [
-          28720
+          29964
         ],
         "page_url": "https://music765plus.com/Texting_you",
         "release_date": "2025-11-17",
@@ -37232,7 +37240,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7783,
         "music765plus_cargo_row_ids": [
-          29271
+          30160
         ],
         "page_url": "https://music765plus.com/Neon_Sphere",
         "release_date": "2025-11-21",
@@ -37252,7 +37260,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7786,
         "music765plus_cargo_row_ids": [
-          28853
+          30268
         ],
         "page_url": "https://music765plus.com/%E3%81%BE%E3%81%A0%E8%A6%8B%E3%81%AC%E6%98%8E%E6%97%A5",
         "release_date": "2025-11-26",
@@ -37350,7 +37358,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7796,
         "music765plus_cargo_row_ids": [
-          29645
+          30482
         ],
         "page_url": "https://music765plus.com/Karma",
         "release_date": "2025-12-10",
@@ -37371,7 +37379,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7799,
         "music765plus_cargo_row_ids": [
-          26501
+          29882
         ],
         "page_url": "https://music765plus.com/YELLOW%21",
         "release_date": "2026-02-04",
@@ -37570,7 +37578,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7817,
         "music765plus_cargo_row_ids": [
-          29255
+          30284
         ],
         "page_url": "https://music765plus.com/%E3%81%AF%E3%82%89%E3%81%BA%E3%81%93%E6%B3%A3%E3%81%8D%E8%99%AB",
         "release_date": "2026-01-14",
@@ -37606,7 +37614,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7819,
         "music765plus_cargo_row_ids": [
-          29424
+          30441
         ],
         "page_url": "https://music765plus.com/%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E8%8A%B1%E6%9D%9F%E3%80%81%E4%BA%8C%E5%BA%A6%E7%9B%AE%E3%81%AE%E6%81%8B%E3%80%82",
         "release_date": "2026-02-21",
@@ -37645,7 +37653,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7829,
         "music765plus_cargo_row_ids": [
-          29040
+          30485
         ],
         "page_url": "https://music765plus.com/%E3%83%9C%E3%83%BC%E3%83%80%E3%83%BC%E3%83%AC%E3%82%B9%E3%83%BB%E3%83%8E%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9",
         "release_date": "2025-12-31",
@@ -37665,7 +37673,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7834,
         "music765plus_cargo_row_ids": [
-          26296
+          30232
         ],
         "page_url": "https://music765plus.com/%E3%82%BB%E3%82%A4%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E3%83%BB%E3%83%96%E3%83%BC%E3%82%B1",
         "release_date": "2026-01-02",
@@ -37683,7 +37691,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7835,
         "music765plus_cargo_row_ids": [
-          29781
+          30250
         ],
         "page_url": "https://music765plus.com/%E4%B8%80%E4%BD%93%E3%81%84%E3%81%A4%E3%81%8B%E3%82%89",
         "release_date": "2026-01-16",
@@ -37722,7 +37730,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 7929,
         "music765plus_cargo_row_ids": [
-          26472
+          29892
         ],
         "page_url": "https://music765plus.com/Duckling_Soars",
         "release_date": "2026-03-04",
@@ -37832,7 +37840,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8277,
         "music765plus_cargo_row_ids": [
-          29034
+          30483
         ],
         "page_url": "https://music765plus.com/SUPER_DUPER_DREAMER",
         "release_date": "2026-01-31",
@@ -37850,7 +37858,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8361,
         "music765plus_cargo_row_ids": [
-          28948
+          30018
         ],
         "page_url": "https://music765plus.com/%E8%B5%A4%E8%A3%B8%E3%80%85",
         "release_date": "2026-02-09",
@@ -37932,7 +37940,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8419,
         "music765plus_cargo_row_ids": [
-          27677
+          29861
         ],
         "page_url": "https://music765plus.com/%E3%81%A6%E3%81%AE%E3%81%86%E3%81%88%E3%81%A7%E8%B8%8A%E3%82%8B%E3%83%A1%E3%83%8C%E3%82%A8%E3%83%83%E3%83%88",
         "release_date": "2026-04-01",
@@ -38117,7 +38125,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8431,
         "music765plus_cargo_row_ids": [
-          29035
+          30215
         ],
         "page_url": "https://music765plus.com/BEAST_MODE",
         "release_date": "2026-02-20",
@@ -38143,7 +38151,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8432,
         "music765plus_cargo_row_ids": [
-          28168
+          29857
         ],
         "page_url": "https://music765plus.com/%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%BB%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88%E3%82%A5%E3%83%8A",
         "release_date": "2026-03-14",
@@ -38162,7 +38170,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8434,
         "music765plus_cargo_row_ids": [
-          29033
+          30487
         ],
         "page_url": "https://music765plus.com/Ring_Ring_Ring%E3%81%AE%E9%AD%94%E6%B3%95",
         "release_date": "2026-02-28",
@@ -38221,7 +38229,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8454,
         "music765plus_cargo_row_ids": [
-          29324
+          30357
         ],
         "page_url": "https://music765plus.com/%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9No.1",
         "release_date": "2026-03-11",
@@ -38242,7 +38250,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8455,
         "music765plus_cargo_row_ids": [
-          28201
+          29887
         ],
         "page_url": "https://music765plus.com/%E5%A5%87%E6%83%B3%E5%A4%A9%E5%A4%96%E7%8B%82%E8%A9%A9%E6%9B%B2-FANTASTIC_RHAPSODY-",
         "release_date": "2026-05-06",
@@ -38284,7 +38292,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8461,
         "music765plus_cargo_row_ids": [
-          28094
+          29942
         ],
         "page_url": "https://music765plus.com/Prima_Princess%21%21",
         "release_date": "2026-03-18",
@@ -38324,7 +38332,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8477,
         "music765plus_cargo_row_ids": [
-          29030
+          30484
         ],
         "page_url": "https://music765plus.com/%E6%95%A3%E8%8A%B1-sanka-",
         "release_date": "2026-03-31",
@@ -38425,7 +38433,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8588,
         "music765plus_cargo_row_ids": [
-          29002
+          29837
         ],
         "page_url": "https://music765plus.com/%E3%81%8A%E8%8F%93%E5%AD%90%E3%81%AA%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
         "release_date": "2026-06-03",
@@ -38466,7 +38474,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8676,
         "music765plus_cargo_row_ids": [
-          28952
+          30015
         ],
         "page_url": "https://music765plus.com/VEIL",
         "release_date": "2026-04-29",
@@ -38487,7 +38495,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8677,
         "music765plus_cargo_row_ids": [
-          29177
+          30488
         ],
         "page_url": "https://music765plus.com/Tokyo%E8%87%AA%E7%94%B1%E7%B3%BB%2A%E3%82%AC%E3%83%BC%E3%83%AB",
         "release_date": "2026-04-30",
@@ -38562,7 +38570,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8692,
         "music765plus_cargo_row_ids": [
-          29730
+          30469
         ],
         "page_url": "https://music765plus.com/MY_STAGE",
         "release_date": "2026-05-20",
@@ -38644,7 +38652,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8702,
         "music765plus_cargo_row_ids": [
-          29007
+          29896
         ],
         "page_url": "https://music765plus.com/OLYMPUS_GOD_STARS",
         "release_date": "2026-07-01",
@@ -38747,7 +38755,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8846,
         "music765plus_cargo_row_ids": [
-          29696
+          30082
         ],
         "page_url": "https://music765plus.com/%E5%8C%97%E6%A5%B5%E6%98%9F%E3%82%92%E3%82%BA%E3%83%A9%E3%81%97%E3%81%A1%E3%82%83%E3%81%88%EF%BC%81",
         "release_date": "2026-08-06",
@@ -38784,10 +38792,10 @@
       "provenance": {
         "music765plus_wiki_page_id": 8851,
         "music765plus_cargo_row_ids": [
-          29269
+          30104
         ],
         "page_url": "https://music765plus.com/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96",
-        "release_date": "2026-07-26",
+        "release_date": "2026-07-24",
         "raw_unit_label": "(ソロ・玲音)",
         "raw_vocal_credit": "玲音(茅原実里)"
       }
@@ -38826,7 +38834,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8853,
         "music765plus_cargo_row_ids": [
-          29183
+          29867
         ],
         "page_url": "https://music765plus.com/True_End%E2%80%99s_Tapestry",
         "release_date": "2026-09-02",
@@ -38844,7 +38852,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8856,
         "music765plus_cargo_row_ids": [
-          29732
+          30389
         ],
         "page_url": "https://music765plus.com/%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%82%A4",
         "release_date": "2026-07-31",
@@ -38927,7 +38935,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8861,
         "music765plus_cargo_row_ids": [
-          29329
+          30223
         ],
         "page_url": "https://music765plus.com/%E5%A4%A7%E5%A5%BD%E3%81%8D%E3%81%AE%E3%83%96%E3%83%BC%E3%82%B1",
         "release_date": "2026-07-29",
@@ -38968,7 +38976,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8873,
         "music765plus_cargo_row_ids": [
-          29327
+          30309
         ],
         "page_url": "https://music765plus.com/%E2%86%92%E2%86%92%E2%86%92SP",
         "release_date": "2026-07-28",
@@ -39013,7 +39021,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8878,
         "music765plus_cargo_row_ids": [
-          29330
+          30222
         ],
         "page_url": "https://music765plus.com/%E3%81%99%E3%82%8A%E3%83%BC%E3%81%B7%E3%81%99%E3%81%8D%E3%81%A3%E3%81%B7",
         "release_date": "2026-08-26",
@@ -39076,7 +39084,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8899,
         "music765plus_cargo_row_ids": [
-          29793
+          30392
         ],
         "page_url": "https://music765plus.com/%E3%80%8C%E3%81%AD%E3%81%88%E3%80%81%E8%A8%80%E3%81%A3%E3%81%A1%E3%82%83%E3%81%86%E3%82%88%E3%80%82%E3%80%8D",
         "release_date": "2026-08-17",
@@ -39094,7 +39102,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8902,
         "music765plus_cargo_row_ids": [
-          29661
+          30420
         ],
         "page_url": "https://music765plus.com/L%E2%80%99Espoir",
         "release_date": "2026-08-20",
@@ -39112,7 +39120,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8904,
         "music765plus_cargo_row_ids": [
-          29665
+          30399
         ],
         "page_url": "https://music765plus.com/%E6%98%A5%E3%81%A8%E5%85%89",
         "release_date": "2026-08-20",
@@ -39148,7 +39156,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8908,
         "music765plus_cargo_row_ids": [
-          29674
+          30409
         ],
         "page_url": "https://music765plus.com/%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AE%E3%82%8F%E3%81%9F%E3%81%97",
         "release_date": "2026-08-21",
@@ -39166,7 +39174,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8909,
         "music765plus_cargo_row_ids": [
-          29676
+          30405
         ],
         "page_url": "https://music765plus.com/%E9%87%8D%E3%81%AA%E3%82%8B%E5%A4%9C%E7%A9%BA%E3%81%AE%E7%97%95%E8%B7%A1%E3%81%AB",
         "release_date": "2026-08-21",
@@ -39184,7 +39192,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8912,
         "music765plus_cargo_row_ids": [
-          29761
+          30027
         ],
         "page_url": "https://music765plus.com/MAGICAL_FOREST",
         "release_date": "2026-09-16",
@@ -39202,7 +39210,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8913,
         "music765plus_cargo_row_ids": [
-          29808
+          30042
         ],
         "page_url": "https://music765plus.com/%E6%81%8B%E3%81%99%E3%82%8B%E3%82%AF%E3%82%AA%E3%83%AA%E3%82%A2",
         "release_date": "2026-09-16",
@@ -39220,7 +39228,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8914,
         "music765plus_cargo_row_ids": [
-          29809
+          30050
         ],
         "page_url": "https://music765plus.com/%E3%83%8F%E3%82%B0%E3%83%AB%E3%83%9E%E3%83%92%E3%83%9E%E3%83%AF%E3%83%AA",
         "release_date": "2026-09-16",
@@ -39238,7 +39246,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8915,
         "music765plus_cargo_row_ids": [
-          29810
+          30033
         ],
         "page_url": "https://music765plus.com/%E3%83%8A%E3%82%A4%E3%82%B9%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E7%A0%94%E7%A9%B6%E4%BC%9A",
         "release_date": "2026-09-16",
@@ -39256,7 +39264,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8916,
         "music765plus_cargo_row_ids": [
-          29811
+          30026
         ],
         "page_url": "https://music765plus.com/%E3%81%A9%E3%81%A3%E3%81%A1%E3%81%BF%E3%81%A1LOVE",
         "release_date": "2026-09-16",
@@ -39274,7 +39282,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8917,
         "music765plus_cargo_row_ids": [
-          29812
+          30028
         ],
         "page_url": "https://music765plus.com/%E3%83%AF%E3%82%BF%E3%82%B7%E3%82%B0%E3%83%A9%E3%83%93%E3%83%86%E3%82%A3",
         "release_date": "2026-09-16",
@@ -39292,7 +39300,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8918,
         "music765plus_cargo_row_ids": [
-          29813
+          30048
         ],
         "page_url": "https://music765plus.com/%E3%83%80%E3%83%9F%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB",
         "release_date": "2026-09-16",
@@ -39310,7 +39318,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8919,
         "music765plus_cargo_row_ids": [
-          29814
+          30032
         ],
         "page_url": "https://music765plus.com/Crying_Diamond",
         "release_date": "2026-09-16",
@@ -39328,7 +39336,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8920,
         "music765plus_cargo_row_ids": [
-          29815
+          30030
         ],
         "page_url": "https://music765plus.com/Imaginary",
         "release_date": "2026-09-16",
@@ -39346,7 +39354,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8922,
         "music765plus_cargo_row_ids": [
-          29816
+          30051
         ],
         "page_url": "https://music765plus.com/Embers_glow",
         "release_date": "2026-09-16",
@@ -39364,7 +39372,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8923,
         "music765plus_cargo_row_ids": [
-          29817
+          30049
         ],
         "page_url": "https://music765plus.com/%E6%AD%A3%E8%A7%A3%E3%81%AA%E4%B8%8D%E6%AD%A3%E8%A7%A3",
         "release_date": "2026-09-16",
@@ -39382,7 +39390,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8924,
         "music765plus_cargo_row_ids": [
-          29818
+          30035
         ],
         "page_url": "https://music765plus.com/%E6%9C%80%E4%B8%8A%E7%B4%9A%E3%83%91%E3%83%B3%E3%83%81%E3%83%A9%E3%82%A4%E3%83%B3",
         "release_date": "2026-09-16",
@@ -39400,7 +39408,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8925,
         "music765plus_cargo_row_ids": [
-          29819
+          30029
         ],
         "page_url": "https://music765plus.com/%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AC%E3%83%BC%E3%81%A8%E3%81%86%E3%81%95%E3%81%8E%E3%81%95%E3%82%93",
         "release_date": "2026-09-16",
@@ -39418,7 +39426,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8926,
         "music765plus_cargo_row_ids": [
-          29820
+          30038
         ],
         "page_url": "https://music765plus.com/%E6%9C%88%E3%81%A8%E3%83%8D%E3%82%AA%E3%83%B3%E3%81%A8%E8%96%84%E7%B4%85%E3%81%A8",
         "release_date": "2026-09-16",
@@ -39436,7 +39444,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8927,
         "music765plus_cargo_row_ids": [
-          29821
+          30031
         ],
         "page_url": "https://music765plus.com/Odette",
         "release_date": "2026-09-16",
@@ -39454,7 +39462,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8928,
         "music765plus_cargo_row_ids": [
-          29822
+          30045
         ],
         "page_url": "https://music765plus.com/Hold_on_me",
         "release_date": "2026-09-16",
@@ -39472,7 +39480,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8929,
         "music765plus_cargo_row_ids": [
-          29823
+          30036
         ],
         "page_url": "https://music765plus.com/Here_for_you",
         "release_date": "2026-09-16",
@@ -39490,7 +39498,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8930,
         "music765plus_cargo_row_ids": [
-          29824
+          30046
         ],
         "page_url": "https://music765plus.com/HELL-O",
         "release_date": "2026-09-16",
@@ -39508,7 +39516,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8932,
         "music765plus_cargo_row_ids": [
-          29825
+          30039
         ],
         "page_url": "https://music765plus.com/Take_Ur_Time",
         "release_date": "2026-09-16",
@@ -39526,7 +39534,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8933,
         "music765plus_cargo_row_ids": [
-          29826
+          30043
         ],
         "page_url": "https://music765plus.com/Lights_on_me",
         "release_date": "2026-09-16",
@@ -39544,7 +39552,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8934,
         "music765plus_cargo_row_ids": [
-          29827
+          30037
         ],
         "page_url": "https://music765plus.com/%E3%83%91%E3%83%A9%E3%83%9C%E3%83%A9",
         "release_date": "2026-09-16",
@@ -39562,7 +39570,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8935,
         "music765plus_cargo_row_ids": [
-          29828
+          30040
         ],
         "page_url": "https://music765plus.com/Be-witched",
         "release_date": "2026-09-16",
@@ -39580,7 +39588,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8936,
         "music765plus_cargo_row_ids": [
-          29829
+          30041
         ],
         "page_url": "https://music765plus.com/Sweet_Boozy",
         "release_date": "2026-09-16",
@@ -39598,7 +39606,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8937,
         "music765plus_cargo_row_ids": [
-          29830
+          30034
         ],
         "page_url": "https://music765plus.com/%E3%82%AC%E3%82%AC%E3%83%AA%E3%82%BA%E3%83%A0",
         "release_date": "2026-09-16",
@@ -39616,7 +39624,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8938,
         "music765plus_cargo_row_ids": [
-          29831
+          30044
         ],
         "page_url": "https://music765plus.com/Paradox",
         "release_date": "2026-09-16",
@@ -39634,7 +39642,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8939,
         "music765plus_cargo_row_ids": [
-          29832
+          30024
         ],
         "page_url": "https://music765plus.com/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%95%E3%83%AB%E3%83%87%E3%82%A4_%E3%83%8F%E3%83%BC%E3%83%88%E3%83%95%E3%83%AB%E3%83%9F%E3%83%BC",
         "release_date": "2026-09-16",
@@ -39652,7 +39660,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8940,
         "music765plus_cargo_row_ids": [
-          29833
+          30047
         ],
         "page_url": "https://music765plus.com/Unstoppable",
         "release_date": "2026-09-16",
@@ -39670,7 +39678,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8941,
         "music765plus_cargo_row_ids": [
-          29834
+          30025
         ],
         "page_url": "https://music765plus.com/HSV%E8%89%B2%E7%A9%BA%E9%96%93",
         "release_date": "2026-09-16",
@@ -39690,7 +39698,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8943,
         "music765plus_cargo_row_ids": [
-          29724
+          30287
         ],
         "page_url": "https://music765plus.com/BEAM",
         "release_date": "2026-08-28",
@@ -39747,7 +39755,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8992,
         "music765plus_cargo_row_ids": [
-          29728
+          30396
         ],
         "page_url": "https://music765plus.com/%E7%A5%9E%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84",
         "release_date": "2026-09-05",
@@ -39765,7 +39773,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8994,
         "music765plus_cargo_row_ids": [
-          29737
+          30398
         ],
         "page_url": "https://music765plus.com/nazonazo",
         "release_date": "2026-09-05",
@@ -39783,7 +39791,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8996,
         "music765plus_cargo_row_ids": [
-          29749
+          30414
         ],
         "page_url": "https://music765plus.com/ORDER_FAKE",
         "release_date": "2026-09-06",
@@ -39801,7 +39809,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 8998,
         "music765plus_cargo_row_ids": [
-          29789
+          30413
         ],
         "page_url": "https://music765plus.com/%E3%82%81",
         "release_date": "2026-09-06",
@@ -39822,7 +39830,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9001,
         "music765plus_cargo_row_ids": [
-          29765
+          30227
         ],
         "page_url": "https://music765plus.com/%E4%B8%80%E6%97%A6%E6%84%9B%E3%81%97%E3%81%A6%E2%99%A1",
         "release_date": "2026-09-18",
@@ -39840,7 +39848,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9004,
         "music765plus_cargo_row_ids": [
-          29792
+          30425
         ],
         "page_url": "https://music765plus.com/%E6%B5%B7%E5%A5%8F%E3%83%A9%E3%83%A9%E3%83%90%E3%82%A4",
         "release_date": "2026-09-22",
@@ -39858,7 +39866,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9007,
         "music765plus_cargo_row_ids": [
-          29791
+          30418
         ],
         "page_url": "https://music765plus.com/%E3%83%AF%E3%82%BF%E3%82%B7%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4%E3%82%A2%E3%83%92%E3%83%AB%E3%83%8E%E3%82%B3",
         "release_date": "2026-09-22",
@@ -39871,17 +39879,19 @@
       "title": "Agitato",
       "aliases": [],
       "canonical_performer_ids": [
-        "china_kuramoto"
+        "saki_hanami",
+        "lilja_katsuragi",
+        "ume_hanami"
       ],
       "provenance": {
         "music765plus_wiki_page_id": 9008,
         "music765plus_cargo_row_ids": [
-          29794
+          30393
         ],
         "page_url": "https://music765plus.com/Agitato",
-        "release_date": "2026-09-22",
+        "release_date": "2026-09-30",
         "raw_unit_label": "(初星学園・グラビア曲)",
-        "raw_vocal_credit": "倉本千奈(伊藤舞音)"
+        "raw_vocal_credit": "花海咲季(長月あおい),葛城リーリヤ(花岩香奈),花海佑芽(松田彩音)"
       }
     },
     {
@@ -39894,7 +39904,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9009,
         "music765plus_cargo_row_ids": [
-          29795
+          30415
         ],
         "page_url": "https://music765plus.com/Roar",
         "release_date": "2026-09-23",
@@ -39912,7 +39922,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9010,
         "music765plus_cargo_row_ids": [
-          29796
+          30408
         ],
         "page_url": "https://music765plus.com/Private_Glitter",
         "release_date": "2026-09-23",
@@ -39930,7 +39940,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9013,
         "music765plus_cargo_row_ids": [
-          29803
+          29923
         ],
         "page_url": "https://music765plus.com/%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%9B%E7%B5%90%E3%81%B3",
         "release_date": "2026-09-19",
@@ -39948,7 +39958,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9014,
         "music765plus_cargo_row_ids": [
-          29804
+          29938
         ],
         "page_url": "https://music765plus.com/%E3%83%8D%E3%83%90%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
         "release_date": "2026-09-19",
@@ -39967,7 +39977,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9016,
         "music765plus_cargo_row_ids": [
-          29805
+          29941
         ],
         "page_url": "https://music765plus.com/%E3%83%91%E3%83%AB%E3%83%86%E3%82%A3%E3%82%B7%E3%82%AA%E3%83%B3",
         "release_date": "2026-09-19",
@@ -39985,7 +39995,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9018,
         "music765plus_cargo_row_ids": [
-          29802
+          29959
         ],
         "page_url": "https://music765plus.com/If_I...",
         "release_date": "2026-09-20",
@@ -40003,7 +40013,7 @@
       "provenance": {
         "music765plus_wiki_page_id": 9019,
         "music765plus_cargo_row_ids": [
-          29806
+          29975
         ],
         "page_url": "https://music765plus.com/Waking_Up_My_Heart",
         "release_date": "2026-09-20",
@@ -40022,12 +40032,289 @@
       "provenance": {
         "music765plus_wiki_page_id": 9020,
         "music765plus_cargo_row_ids": [
-          29807
+          29979
         ],
         "page_url": "https://music765plus.com/Present",
         "release_date": "2026-09-20",
         "raw_unit_label": "(DUO)",
         "raw_vocal_credit": "馬場このみ(髙橋ミナミ),百瀬莉緒(山口立花子)"
+      }
+    },
+    {
+      "id": "song_002079",
+      "title": "どんどこ🥁どんどこ🥁どんどこ🥁どんどこ🥁どんタスティック!!!",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "ume_hanami"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9024,
+        "music765plus_cargo_row_ids": [
+          30311
+        ],
+        "page_url": "https://music765plus.com/%E3%81%A9%E3%82%93%E3%81%A9%E3%81%93%F0%9F%A5%81%E3%81%A9%E3%82%93%E3%81%A9%E3%81%93%F0%9F%A5%81%E3%81%A9%E3%82%93%E3%81%A9%E3%81%93%F0%9F%A5%81%E3%81%A9%E3%82%93%E3%81%A9%E3%81%93%F0%9F%A5%81%E3%81%A9%E3%82%93%E3%82%BF%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%21%21%21",
+        "release_date": "2026-10-05",
+        "raw_unit_label": "(太鼓の達人コラボ)",
+        "raw_vocal_credit": "花海佑芽(松田彩音)"
+      }
+    },
+    {
+      "id": "song_002080",
+      "title": "After the glory days",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "kaho_komiya",
+        "chiyoko_sonoda",
+        "juri_saijo",
+        "rinze_morino",
+        "natsuha_arisugawa"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9137,
+        "music765plus_cargo_row_ids": [
+          30275
+        ],
+        "page_url": "https://music765plus.com/After_the_glory_days",
+        "release_date": "2026-09-29",
+        "raw_unit_label": "放課後クライマックスガールズ",
+        "raw_vocal_credit": "小宮果穂(河野ひより),園田智代子(白石晴香),西城樹里(永井真里子),杜野凛世(丸岡和佳奈),有栖川夏葉(涼本あきほ)"
+      }
+    },
+    {
+      "id": "song_002081",
+      "title": "濡羽色の薄明",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "tsubame_amaya"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9138,
+        "music765plus_cargo_row_ids": [
+          30422
+        ],
+        "page_url": "https://music765plus.com/%E6%BF%A1%E7%BE%BD%E8%89%B2%E3%81%AE%E8%96%84%E6%98%8E",
+        "release_date": "2026-11-09",
+        "raw_unit_label": "(ソロ・燕)",
+        "raw_vocal_credit": "雨夜燕(天音ゆかり)"
+      }
+    },
+    {
+      "id": "song_002084",
+      "title": "HOURGLASS",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "otokura_yuuki",
+        "kitami_yuzu",
+        "kiryu_tsukasa",
+        "mochizuki_hijiri",
+        "seki_hiromi"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9141,
+        "music765plus_cargo_row_ids": [
+          30356
+        ],
+        "page_url": "https://music765plus.com/HOURGLASS",
+        "release_date": "2026-11-18",
+        "raw_unit_label": "(シンデレラガールズ15周年曲)",
+        "raw_vocal_credit": "乙倉悠貴(中島由貴),喜多見柚(武田羅梨沙多胡),桐生つかさ(河瀬茉希),望月聖(原涼子),関裕美(会沢紗弥)"
+      }
+    },
+    {
+      "id": "song_002085",
+      "title": "SYMPHONY",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "haruka_amami",
+        "shimamura_uzuki",
+        "mirai_kasuga"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9142,
+        "music765plus_cargo_row_ids": [
+          30225
+        ],
+        "page_url": "https://music765plus.com/SYMPHONY",
+        "release_date": "2026-10-29",
+        "raw_unit_label": "(アイドルマスター TOURS)",
+        "raw_vocal_credit": "天海春香(中村繪里子),島村卯月(大橋彩香),春日未来(山崎はるか)"
+      }
+    },
+    {
+      "id": "song_002086",
+      "title": "ハピピス♡",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "minako_satake",
+        "elena_shimabara",
+        "karen_shinomiya",
+        "mizuki_makabe"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9143,
+        "music765plus_cargo_row_ids": [
+          30467
+        ],
+        "page_url": "https://music765plus.com/%E3%83%8F%E3%83%94%E3%83%94%E3%82%B9%E2%99%A1",
+        "release_date": "2026-10-18",
+        "raw_unit_label": "(X-STREAM THEATER)",
+        "raw_vocal_credit": "佐竹美奈子(大関英里),島原エレナ(角元明日香),篠宮可憐(近藤唯),真壁瑞希(阿部里果)"
+      }
+    },
+    {
+      "id": "song_002087",
+      "title": "凪ぐ",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "toru_asakura",
+        "madoka_higuchi",
+        "koito_fukumaru",
+        "hinana_ichikawa"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9152,
+        "music765plus_cargo_row_ids": [
+          30288
+        ],
+        "page_url": "https://music765plus.com/%E5%87%AA%E3%81%90",
+        "release_date": "2026-10-30",
+        "raw_unit_label": "ノクチル",
+        "raw_vocal_credit": "浅倉透(和久井優),樋口円香(土屋李央),福丸小糸(田嶌紗蘭),市川雛菜(岡咲美保)"
+      }
+    },
+    {
+      "id": "song_002088",
+      "title": "Monad",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "kiriko_yukoku",
+        "toru_asakura"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9153,
+        "music765plus_cargo_row_ids": [
+          30471
+        ],
+        "page_url": "https://music765plus.com/Monad",
+        "release_date": "2026-10-24",
+        "raw_unit_label": "Fumage",
+        "raw_vocal_credit": "幽谷霧子(結名美月),浅倉透(和久井優)"
+      }
+    },
+    {
+      "id": "song_002091",
+      "title": "慟哭のコンチェルト",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "temari_tsukimura",
+        "misuzu_hataya"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9210,
+        "music765plus_cargo_row_ids": [
+          30434
+        ],
+        "page_url": "https://music765plus.com/%E6%85%9F%E5%93%AD%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%81%E3%82%A7%E3%83%AB%E3%83%88",
+        "release_date": "2026-11-08",
+        "raw_unit_label": "(Duet)",
+        "raw_vocal_credit": "月村手毬(小鹿なお),秦谷美鈴(春咲暖)"
+      }
+    },
+    {
+      "id": "song_002093",
+      "title": "FANTASTIC GATHERING!",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "kotone_fujita",
+        "sena_juo"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9213,
+        "music765plus_cargo_row_ids": [
+          30424
+        ],
+        "page_url": "https://music765plus.com/FANTASTIC_GATHERING%21",
+        "release_date": "2026-11-09",
+        "raw_unit_label": "(Duet)",
+        "raw_vocal_credit": "藤田ことね(飯田ヒカル),十王星南(陽高真白)"
+      }
+    },
+    {
+      "id": "song_002094",
+      "title": "クロスファイア",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "saki_hanami",
+        "ume_hanami"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9217,
+        "music765plus_cargo_row_ids": [
+          30428
+        ],
+        "page_url": "https://music765plus.com/%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2",
+        "release_date": "2026-11-09",
+        "raw_unit_label": "(Duet)",
+        "raw_vocal_credit": "花海咲季(長月あおい),花海佑芽(松田彩音)"
+      }
+    },
+    {
+      "id": "song_002095",
+      "title": "メタモルフォーゼ",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "kanae_hiwatari"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9218,
+        "music765plus_cargo_row_ids": [
+          30470
+        ],
+        "page_url": "https://music765plus.com/%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC",
+        "release_date": "2026-11-16",
+        "raw_unit_label": "(ソロ・香名江)",
+        "raw_vocal_credit": "氷渡香名江(安倍彩野夏)"
+      }
+    },
+    {
+      "id": "song_002096",
+      "title": "想定心理外 -Outside Isotope-",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "reika_kitakami",
+        "julia",
+        "kaori_sakuramori",
+        "megumi_tokoro",
+        "arisa_matsuda"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9224,
+        "music765plus_cargo_row_ids": [
+          30468
+        ],
+        "page_url": "https://music765plus.com/%E6%83%B3%E5%AE%9A%E5%BF%83%E7%90%86%E5%A4%96_-Outside_Isotope-",
+        "release_date": "2026-11-17",
+        "raw_unit_label": "(X-STREAM THEATER)",
+        "raw_vocal_credit": "北上麗花(平山笑美),ジュリア(愛美),桜守歌織(香里有佐),所恵美(藤井ゆきよ),松田亜利沙(村川梨衣)"
+      }
+    },
+    {
+      "id": "song_002097",
+      "title": "ロンリー・デイト水性白書",
+      "aliases": [],
+      "canonical_performer_ids": [
+        "haruki_ikuta",
+        "mano_sakuragi"
+      ],
+      "provenance": {
+        "music765plus_wiki_page_id": 9225,
+        "music765plus_cargo_row_ids": [
+          30472
+        ],
+        "page_url": "https://music765plus.com/%E3%83%AD%E3%83%B3%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%87%E3%82%A4%E3%83%88%E6%B0%B4%E6%80%A7%E7%99%BD%E6%9B%B8",
+        "release_date": "2026-11-22",
+        "raw_unit_label": "ザ・ふたりトラベラー",
+        "raw_vocal_credit": "郁田はるき(小澤麗那),櫻木真乃(関根瞳)"
       }
     }
   ]
