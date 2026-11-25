@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "overrides": [
+    {
+      "raw_name": "双海亜美／真美",
+      "performer_ids": [
+        "ami_futami",
+        "mami_futami"
+      ],
+      "reason": "The source uses one combined credit for two separately selectable characters."
+    }
+  ],
+  "unit_label_overrides": [
+    {
+      "unit_label": "アンティーカ",
+      "performer_ids": [
+        "kogane_tsukioka",
+        "mamimi_tanaka",
+        "sakuya_shirase",
+        "yuika_mitsumine",
+        "kiriko_yukoku"
+      ],
+      "reason": "Approved MVP decision: a missing vocal credit with the exact unit label アンティーカ resolves to the five specified unit members."
+    }
+  ]
+}

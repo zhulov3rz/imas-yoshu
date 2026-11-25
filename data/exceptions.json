@@ -1,0 +1,1938 @@
+{
+  "schema_version": 1,
+  "exceptions": [
+    {
+      "id": "song_000009",
+      "title": "ススメ☆オトメ ～jewel parade～",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 83
+      },
+      "notes": "Jewelries 01 song with 15 performers, but functions as a brand song in lives"
+    },
+    {
+      "id": "song_000080",
+      "title": "ゴキゲンParty Night",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 161
+      },
+      "notes": "Jewelries 02 song with 15 performers, but functions as a brand song in lives"
+    },
+    {
+      "id": "song_000084",
+      "title": "Near to You",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 165
+      },
+      "notes": "Jewelries 03 song with 15 performers but functions as a brand song in lives"
+    },
+    {
+      "id": "song_000095",
+      "title": "Welcome!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 178
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000193",
+      "title": "THE IDOLM@STER",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 281
+      },
+      "notes": "Brand level song."
+    },
+    {
+      "id": "song_000208",
+      "title": "i",
+      "status": "shared_song_exception",
+      "source": {
+        "music765plus_wiki_page_id": 297
+      },
+      "notes": "Common solo song of the Master Artist 01 series."
+    },
+    {
+      "id": "song_000219",
+      "title": "空",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 309
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000220",
+      "title": "ID:[OL]",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 310
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000226",
+      "title": "It's Show",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 316
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000232",
+      "title": "花",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 322
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000276",
+      "title": "光",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 366
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000278",
+      "title": "The world is all one !!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 368
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000285",
+      "title": "READY!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 375
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000292",
+      "title": "CHANGE!!!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 382
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000303",
+      "title": "私たちはずっと…でしょう？",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 393
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000321",
+      "title": "幸",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 411
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000323",
+      "title": "MUSIC♪",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 413
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000327",
+      "title": "M@STERPIECE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 417
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000328",
+      "title": "君が選ぶ道",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 418
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000329",
+      "title": "ラムネ色 青春",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 419
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000331",
+      "title": "虹色ミラクル",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 421
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000333",
+      "title": "ONLY MY NOTE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 423
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000352",
+      "title": "Destiny",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 442
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000361",
+      "title": "飛べない鳥は夜に鳴く",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 451
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000362",
+      "title": "紅白応援V(ビクトリー)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 452
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000365",
+      "title": "マジで…！？",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 455
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000375",
+      "title": "ToP!!!!!!!!!!!!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 465
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000381",
+      "title": "Star!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 483
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000382",
+      "title": "夕映えプレゼント",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 484
+      },
+      "notes": "Brand level song. Either CIDERELLA PROJECT or THE IDOLM@STER CINDERELLA GIRLS. No mapping"
+    },
+    {
+      "id": "song_000388",
+      "title": "ØωØver!! -Heart Beat Version-",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 490
+      },
+      "canonical_song_id": "song_000387",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_000387 (ØωØver!!) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_000390",
+      "title": "GOIN'!!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 492
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000391",
+      "title": "Shine!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 493
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000392",
+      "title": "夢色ハーモニー",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 494
+      },
+      "notes": "Brand level song. Either CIDERELLA PROJECT or THE IDOLM@STER CINDERELLA GIRLS. No mapping"
+    },
+    {
+      "id": "song_000402",
+      "title": "M@GIC☆",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 504
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000483",
+      "title": "でれぱDEないと",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 587
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000484",
+      "title": "でれぱれ〜ど",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 588
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000485",
+      "title": "Advance",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 589
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000486",
+      "title": "でれぱ音頭",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 590
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000489",
+      "title": "Dreaming!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 593
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000514",
+      "title": "DIAMOND DAYS",
+      "status": "shared_song_exception",
+      "source": {
+        "music765plus_wiki_page_id": 619
+      },
+      "notes": "ED song for all LTA LTB LTC album dramas. Not meaningful to index."
+    },
+    {
+      "id": "song_000536",
+      "title": "Brand New Theater!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 641
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000566",
+      "title": "ストレートラブ！",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 671
+      },
+      "notes": "This probably ends up not indexed because this is probably a very big edge case"
+    },
+    {
+      "id": "song_000569",
+      "title": "Melted Snow",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 674
+      },
+      "notes": "Technically a combined or universal true version does not exist"
+    },
+    {
+      "id": "song_000582",
+      "title": "飛べ！スカイキッド",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 687
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000584",
+      "title": "ら♪ら♪ら♪わんだぁらんど",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 689
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000600",
+      "title": "♪（おんぷ）",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 705
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000616",
+      "title": "1人ぼっちの歌",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 721
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000652",
+      "title": "Spread the Wings!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1037
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000658",
+      "title": "shy→shining",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1049
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000664",
+      "title": "Multicolored Sky",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1069
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000672",
+      "title": "DRIVE A LIVE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1081
+      },
+      "notes": "sideM brand song."
+    },
+    {
+      "id": "song_000711",
+      "title": "だから今夜きみと",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1153
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000812",
+      "title": "LET'S GO!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1307
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000813",
+      "title": "Reason!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1308
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000816",
+      "title": "GLORIOUS RO@D",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1320
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000824",
+      "title": "嗚呼、情熱に星は輝く〜315プロダクション社歌〜",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1328
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_000834",
+      "title": "Friendly Smile",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1406
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000837",
+      "title": "SNOW FLAKES MEMORIES",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1414
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000838",
+      "title": "Let's get a chance",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1415
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000840",
+      "title": "POKER FAITH -ポーカーフェイス-",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1443
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000843",
+      "title": "お願い！シンデレラ〈天海春香 ver.〉",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1521
+      },
+      "canonical_song_id": "song_000074",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_000074 (お願い！シンデレラ) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_000859",
+      "title": "Ambitious Eve",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1601
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000860",
+      "title": "いつか Shiny Days",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1602
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000878",
+      "title": "LEADER!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1624
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000887",
+      "title": "PRIDE STAR",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1641
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000916",
+      "title": "FUTURITY SMILE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1702
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000918",
+      "title": "ススメ☆オトメ 〜jewel parade〜 (COOL VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1707
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000009"
+    },
+    {
+      "id": "song_000919",
+      "title": "ススメ☆オトメ 〜jewel parade〜 (PASSION VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1708
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000009"
+    },
+    {
+      "id": "song_000920",
+      "title": "ススメ☆オトメ 〜jewel parade〜 (CUTE VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1709
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000009"
+    },
+    {
+      "id": "song_000921",
+      "title": "ゴキゲンParty Night (COOL VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1714
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000080"
+    },
+    {
+      "id": "song_000922",
+      "title": "ゴキゲンParty Night (PASSION VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1715
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000080"
+    },
+    {
+      "id": "song_000923",
+      "title": "ゴキゲンParty Night (CUTE VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1716
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000080"
+    },
+    {
+      "id": "song_000924",
+      "title": "夕映えプレゼント〈CINDERELLA PROJECT ver.〉",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1725
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000925",
+      "title": "夢色ハーモニー〈CINDERELLA PROJECT ver.〉",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 1751
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000926",
+      "title": "Near to You (CUTE VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1785
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000084"
+    },
+    {
+      "id": "song_000927",
+      "title": "Near to You (PASSION VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1787
+      },
+      "notes": "Non-versioned song exists",
+      "canonical_song_id": "song_000084"
+    },
+    {
+      "id": "song_000928",
+      "title": "Near to You (COOL VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 1788
+      },
+      "notes": "Non-version song exists",
+      "canonical_song_id": "song_000084"
+    },
+    {
+      "id": "song_000934",
+      "title": "IDOL POWER RAINBOW(765PRO Ver.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 2095
+      },
+      "canonical_song_id": "song_000363",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_000363 (IDOL POWER RAINBOW) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_000935",
+      "title": "なんどでも笑おう",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2197
+      },
+      "notes": "15th anniv brand level song"
+    },
+    {
+      "id": "song_000937",
+      "title": "SWEET♡STEP",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2303
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000966",
+      "title": "シャイノグラフィ",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2453
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000967",
+      "title": "Dye the sky.",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2458
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_000986",
+      "title": "New Me, Continued",
+      "status": "shared_song_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2545
+      },
+      "notes": "MA4 shared solo song. Not meaningful to index"
+    },
+    {
+      "id": "song_001013",
+      "title": "NEXT STAGE！",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2646
+      },
+      "notes": "SideM Anime OP. Brand level song"
+    },
+    {
+      "id": "song_001063",
+      "title": "SESSION!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2759
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001091",
+      "title": "Resonance⁺",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2822
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001093",
+      "title": "Color Days",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2824
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001109",
+      "title": "デレぱにぱにック",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 2843
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001110",
+      "title": "デレパノココロ",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 2844
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001123",
+      "title": "夏のBang!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2918
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001128",
+      "title": "VOY@GER",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2924
+      },
+      "notes": "16th Anniversary Franchise song. Not meaningful to index"
+    },
+    {
+      "id": "song_001130",
+      "title": "アイシテの呪縛〜Je vous aime〜",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2926
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001131",
+      "title": "GR@TITUDE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 2927
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001182",
+      "title": "いっしょ(NEW VERSION)",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3137
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001199",
+      "title": "RED HOT BEAT!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3217
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001200",
+      "title": "リトルハピネス",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3218
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001201",
+      "title": "ANYWHERE",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3219
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001209",
+      "title": "True Horizon",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3274
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001218",
+      "title": "IDOL☆HEART",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3284
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001225",
+      "title": "翼",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3294
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001226",
+      "title": "想い出は永遠に",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3295
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001260",
+      "title": "夢にかけるRainbow",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3337
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001262",
+      "title": "Our Colorful Stage!!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3339
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001299",
+      "title": "認めてくれなくたっていいよ",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3399
+      },
+      "notes": "Jewelries 04 common song. Functionally a brand level track"
+    },
+    {
+      "id": "song_001302",
+      "title": "約束(TV VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3438
+      },
+      "canonical_song_id": "song_000299",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_000299 (約束) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_001327",
+      "title": "Take a StuMp!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3671
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001367",
+      "title": "GO FOR IT!!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3792
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001379",
+      "title": "幻想のUtopia",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3809
+      },
+      "notes": "Opening theme for a specific live event. Treated as a brand song in subsequent concerts."
+    },
+    {
+      "id": "song_001380",
+      "title": "安寧のDystopia",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3810
+      },
+      "notes": "Opening theme for a specific live event. Treated as a brand song in subsequent concerts."
+    },
+    {
+      "id": "song_001381",
+      "title": "FLASH LIGHT",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3814
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001382",
+      "title": "precious love",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3815
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001398",
+      "title": "Shiny Stories",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3837
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001447",
+      "title": "Dream",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3917
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001448",
+      "title": "One For All",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3918
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001449",
+      "title": "ACACIA",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3919
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001450",
+      "title": "Memories",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3921
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001451",
+      "title": "SUPER GIRL MAGIC",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3922
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001452",
+      "title": "ATTENTION",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3923
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001453",
+      "title": "Lost In The Summer",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3924
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001456",
+      "title": "デレパの神曲",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3935
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001475",
+      "title": "異次元★♥BIGBANG",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 3957
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001498",
+      "title": "Hands &amp; Claps!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 3984
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001529",
+      "title": "Wanna be your Star",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4033
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001536",
+      "title": "NOT END…BUT AND !!",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4046
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001537",
+      "title": "Let's Get Started",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4047
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001538",
+      "title": "Because of you",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4049
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001539",
+      "title": "PINGPONG GAME",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4050
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001545",
+      "title": "光跡",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4075
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001546",
+      "title": "in WonderRadio",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4076
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001547",
+      "title": "Monday Night Fever☆",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4077
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001548",
+      "title": "Strawberry pain",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4078
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001549",
+      "title": "continue",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4079
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001550",
+      "title": "ぜんぜんあいたい",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4080
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001551",
+      "title": "きっと",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4081
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001552",
+      "title": "HEART AND SOUL",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4082
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001553",
+      "title": "Crescent Maze",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4083
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001554",
+      "title": "SUPERSTAR",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4084
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001555",
+      "title": "It's ALRIGHT!",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4085
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001556",
+      "title": "1,2,3",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4086
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001557",
+      "title": "高速道路",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4087
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001558",
+      "title": "Traveler",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4088
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001559",
+      "title": "はっぴぃ☆ほりっく",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4089
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001560",
+      "title": "SHADOWLESS",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4090
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001561",
+      "title": "One Step",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4091
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001562",
+      "title": "AVALON",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4092
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001563",
+      "title": "DEAD or ALIVE",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4093
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001580",
+      "title": "ジュビリー",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4180
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001634",
+      "title": "Gather Round!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 4252
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001645",
+      "title": "Amazing Moment",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4265
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001667",
+      "title": "アイ NEED YOU（FOR WONDERFUL STORY）",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 4314
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_001684",
+      "title": "でれぱ 拾年の宴",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4337
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001693",
+      "title": "古今東西ちょちょいのちょい",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 4352
+      },
+      "notes": "Effectively behaves as a brand song"
+    },
+    {
+      "id": "song_001740",
+      "title": "Migratory Echoes (アンティーカVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4572
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001741",
+      "title": "Migratory Echoes (放課後クライマックスガールズVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4573
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001742",
+      "title": "Migratory Echoes (アルストロメリアVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4574
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001743",
+      "title": "Migratory Echoes (ストレイライトVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4575
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001744",
+      "title": "Migratory Echoes (ノクチルVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4576
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001745",
+      "title": "Migratory Echoes (シーズVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4577
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001746",
+      "title": "Migratory Echoes (コメティックVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4578
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001747",
+      "title": "Migratory Echoes (イルミネーションスターズVer.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 4579
+      },
+      "notes": "All Migratory Echoes songs are unique arranges but are not meaningful to index as they are unit specific and low value predictions."
+    },
+    {
+      "id": "song_001753",
+      "title": "認めてくれなくたっていいよ (CUTE VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5152
+      },
+      "notes": "Non versioned song already exists",
+      "canonical_song_id": "song_001299"
+    },
+    {
+      "id": "song_001754",
+      "title": "認めてくれなくたっていいよ (COOL VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5153
+      },
+      "notes": "Non versioned song already exists",
+      "canonical_song_id": "song_001299"
+    },
+    {
+      "id": "song_001755",
+      "title": "認めてくれなくたっていいよ (PASSION VERSION)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5154
+      },
+      "notes": "Non versioned song already exists",
+      "canonical_song_id": "song_001299"
+    },
+    {
+      "id": "song_001765",
+      "title": "EVERYDAY STARS!! (プリンセススターズ ver.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5759
+      },
+      "canonical_song_id": "song_001114",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_001114 (EVERYDAY STARS!!) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_001766",
+      "title": "EVERYDAY STARS!! (フェアリースターズ ver.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5760
+      },
+      "canonical_song_id": "song_001114",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_001114 (EVERYDAY STARS!!) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_001767",
+      "title": "EVERYDAY STARS!! (エンジェルスターズ ver.)",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 5761
+      },
+      "canonical_song_id": "song_001114",
+      "notes": "Excluded by the approved version-identity policy because indexed song song_001114 (EVERYDAY STARS!!) is the canonical non-version identity. Version-specific recordings are not separately indexed for MVP concert preparation."
+    },
+    {
+      "id": "song_001817",
+      "title": "URGENT!!!",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6247
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001850",
+      "title": "アナタのヒトコト",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6495
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001851",
+      "title": "FO(U)R",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6496
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001852",
+      "title": "月下祭　～la festa sotto la luna～",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6497
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001853",
+      "title": "Looking For Love",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6498
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001863",
+      "title": "初星体操第一",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6516
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001869",
+      "title": "太陽と月",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6591
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001870",
+      "title": "STYLISH QUEEN★",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6593
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001871",
+      "title": "夢見る頃",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6594
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001872",
+      "title": "BEST ROAD",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6595
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001873",
+      "title": "声が聴こえる",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6596
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001874",
+      "title": "Okey-dokey",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6597
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001875",
+      "title": "春の日差し",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6598
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001876",
+      "title": "Inspire",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6599
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001877",
+      "title": "destiny",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6601
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001878",
+      "title": "あしたアイシテル",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6602
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001879",
+      "title": "Still Love",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6604
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001880",
+      "title": "Contradiction",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6605
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001881",
+      "title": "アイレデッスカ!?",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6606
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001882",
+      "title": "僕はあなたに恋する",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6607
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001883",
+      "title": "Smile Smile Smile",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6608
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001884",
+      "title": "Lady☆Cake",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6609
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001885",
+      "title": "7 colors",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6610
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001886",
+      "title": "エール",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6611
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001887",
+      "title": "sunshine",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6612
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001888",
+      "title": "JM-Justify Myself-",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6613
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001889",
+      "title": "赤い花咲いた",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6614
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001890",
+      "title": "Melting season",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6615
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001891",
+      "title": "ギフト",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6616
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001892",
+      "title": "てがみうた",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6617
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001893",
+      "title": "pink の february",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6618
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001894",
+      "title": "また、はじめよう。",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6619
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001896",
+      "title": "微熱S.O.S !!",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6676
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001897",
+      "title": "ムーンライト・ラビリンス",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6677
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001900",
+      "title": "残酷よ希望となれ",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6680
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001901",
+      "title": "記憶の鎖",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6681
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001902",
+      "title": "悠久の旅人〜Dear boy",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6682
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001903",
+      "title": "Searching",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 6683
+      },
+      "notes": "Excluded from the MVP because its performer credit cannot be fully represented by the official idol directory."
+    },
+    {
+      "id": "song_001912",
+      "title": "CROWN US KING!",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 6865
+      },
+      "notes": "Theme for a specific event. Indexing value is low"
+    },
+    {
+      "id": "song_001965",
+      "title": "感謝のコントレイル",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 8359
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_002026",
+      "title": "修楽旅行",
+      "status": "shared_song_exception",
+      "source": {
+        "music765plus_wiki_page_id": 8900
+      },
+      "notes": "One song, many arrangements. Probably fits into migratory echoes class of problems"
+    },
+    {
+      "id": "song_002082",
+      "title": "雪",
+      "status": "needs_review",
+      "source": {
+        "music765plus_wiki_page_id": 9139,
+        "reference": "https://music765plus.com/%E9%9B%AA"
+      },
+      "notes": "The solo was announced in October 2026. The wiki's July 24, 2027 date is a placeholder taken from the concert schedule. Confirm the first officially released recording."
+    },
+    {
+      "id": "song_002083",
+      "title": "夜",
+      "status": "needs_review",
+      "source": {
+        "music765plus_wiki_page_id": 9140,
+        "reference": "https://music765plus.com/%E5%A4%9C"
+      },
+      "notes": "The solo was announced in October 2026. The wiki's July 24, 2027 date is a placeholder taken from the concert schedule. Confirm the first officially released recording."
+    },
+    {
+      "id": "song_002089",
+      "title": "OVERLAY OF HOPES",
+      "status": "broad_credit_exception",
+      "source": {
+        "music765plus_wiki_page_id": 9155,
+        "raw_artist_credit": "シャイニーカラーズ",
+        "reference": "https://www.youtube.com/watch?v=-2WKY8ar26k"
+      },
+      "notes": "Excluded from the MVP index because the source uses a reviewed broad cast or project label; individual credits are not expanded."
+    },
+    {
+      "id": "song_002090",
+      "title": "あこがれフリルドレスで",
+      "status": "excluded",
+      "source": {
+        "music765plus_wiki_page_id": 9157,
+        "reference": "https://shop.asobistore.jp/s/products/detail/239057-00-00-t_nml"
+      },
+      "notes": "The official soundtrack listing describes the singer as the unnamed idol who inspired Hiori Kazano. The release supplies no credit that can be resolved to an official idol ID."
+    },
+    {
+      "id": "song_002092",
+      "title": "アンバランス",
+      "status": "needs_review",
+      "source": {
+        "music765plus_wiki_page_id": 9212,
+        "reference": "https://idolmaster-official.jp/news/01_20326"
+      },
+      "notes": "The November 7 date refers to the concert premiere. The official announcement schedules the music video for November 27, 2026 and digital distribution for November 28. Confirm the first officially released recording."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "generated_from": "data/generated/music765plus-song-candidates.json",
+  "candidate_count": 2097,
+  "review_required_count": 1,
+  "review_flag_counts": {
+    "missing_vocal_credit": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "music765plus_page_3182",
+      "title": "白い犬＆黒い犬",
+      "suggested_performer_ids": [],
+      "review_required": true,
+      "review_flags": [
+        "missing_vocal_credit"
+      ],
+      "automatic_flag_resolutions": [],
+      "pending_review_flags": [
+        "missing_vocal_credit"
+      ],
+      "credit_resolution": [],
+      "source": {
+        "wiki_page_id": 3182,
+        "cargo_row_ids": [
+          16719
+        ],
+        "page_name": "白い犬＆黒い犬",
+        "page_url": "https://music765plus.com/%E7%99%BD%E3%81%84%E7%8A%AC%EF%BC%86%E9%BB%92%E3%81%84%E7%8A%AC",
+        "unit_label": "",
+        "vocal_credit": "",
+        "release_date": "2009-01-23",
+        "release_date_precision": 1,
+        "game_first": "",
+        "game_first_dates": [],
+        "cd_first": "ドラマCD アイドルマスター Eternal Prism 02(2009/01/23)、音源初出は[[アイマスラジオ（フロンティアワークス）のCD#Eternal Prism|THE IDOLM@STER Eternal Prism Premium CD]](2009/05/11)",
+        "kind_code": 0,
+        "brand": "765AS,961",
+        "other": "",
+        "notes": ""
+      },
+      "song_id": "song_001186",
+      "canonical_status": null,
+      "canonical_decision_rationale": null,
+      "canonical_decision_target_id": null,
+      "review_pending": true
+    }
+  ]
+}
